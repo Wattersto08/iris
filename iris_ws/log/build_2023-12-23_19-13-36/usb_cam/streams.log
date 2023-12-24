@@ -1,0 +1,27 @@
+[0.268s] Invoking command in '/home/iris/iris/iris_ws/build/usb_cam': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam
+[0.601s] -- The C compiler identification is GNU 11.4.0
+[0.932s] -- The CXX compiler identification is GNU 11.4.0
+[0.982s] -- Detecting C compiler ABI info
+[1.312s] -- Detecting C compiler ABI info - done
+[1.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.342s] -- Detecting C compile features
+[1.344s] -- Detecting C compile features - done
+[1.358s] -- Detecting CXX compiler ABI info
+[1.738s] -- Detecting CXX compiler ABI info - done
+[1.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.766s] -- Detecting CXX compile features
+[1.767s] -- Detecting CXX compile features - done
+[1.770s] -- Searching required modules
+[1.784s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.787s] -- Checking for module 'libavcodec'
+[1.796s] --   No package 'libavcodec' found
+[1.797s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[1.797s]   A required package was not found
+[1.798s] Call Stack (most recent call first):
+[1.798s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[1.799s]   CMakeLists.txt:7 (pkg_check_modules)
+[1.799s] 
+[1.799s] [0m
+[1.800s] -- Configuring incomplete, errors occurred!
+[1.801s] See also "/home/iris/iris/iris_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[1.810s] Invoked command in '/home/iris/iris/iris_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam

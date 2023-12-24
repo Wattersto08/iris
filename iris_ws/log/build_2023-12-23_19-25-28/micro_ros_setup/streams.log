@@ -1,0 +1,2 @@
+[0.465s] Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_setup -- -j4 -l4
+[0.636s] Invoked command in '/home/iris/iris/iris_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_setup -- -j4 -l4

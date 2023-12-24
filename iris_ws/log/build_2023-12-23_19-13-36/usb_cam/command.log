@@ -1,0 +1,2 @@
+Invoking command in '/home/iris/iris/iris_ws/build/usb_cam': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam
+Invoked command in '/home/iris/iris/iris_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam

@@ -1,0 +1,5 @@
+-- Searching required modules
+-- Checking for module 'libavcodec'
+--   No package 'libavcodec' found
+-- Configuring incomplete, errors occurred!
+See also "/home/iris/iris/iris_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,23 @@
+[0.316s] Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_msgs': /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_msgs -- -j4 -l4
+[0.962s] [  2%] Built target micro_ros_msgs__cpp
+[0.981s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[1.026s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[1.124s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.130s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.155s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.184s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.256s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.257s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[1.342s] [ 76%] Built target micro_ros_msgs
+[1.436s] [ 78%] Built target micro_ros_msgs__py
+[1.546s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[1.662s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.671s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[1.678s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[2.111s] running egg_info
+[2.115s] writing micro_ros_msgs.egg-info/PKG-INFO
+[2.116s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[2.117s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[2.130s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.134s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.264s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg

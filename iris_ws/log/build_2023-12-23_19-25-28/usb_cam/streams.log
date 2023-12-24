@@ -1,0 +1,14 @@
+[0.269s] Invoking command in '/home/iris/iris/iris_ws/build/usb_cam': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam
+[0.323s] -- Searching required modules
+[0.339s] -- Checking for module 'libavcodec'
+[0.350s] --   No package 'libavcodec' found
+[0.351s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[0.352s]   A required package was not found
+[0.353s] Call Stack (most recent call first):
+[0.354s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[0.355s]   CMakeLists.txt:7 (pkg_check_modules)
+[0.355s] 
+[0.356s] [0m
+[0.357s] -- Configuring incomplete, errors occurred!
+[0.358s] See also "/home/iris/iris/iris_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[0.362s] Invoked command in '/home/iris/iris/iris_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/iris/iris/iris_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/usb_cam
