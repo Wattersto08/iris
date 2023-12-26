@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "/home/iris/iris/Iris_Controller_Hardware/.pio/libdeps/teensy41/micro_ros_platformio/ci/extra_packages/my_custom_message"
 }
