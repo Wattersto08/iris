@@ -21,12 +21,12 @@
 //publisher setup 
 rcl_subscription_t subscriber;
 //rcl_subscription_t subscriber;
-//std_msgs__msg__Int32 msg;
+std_msgs__msg__Int32 sub_msg;
 
 
 // publisher setup 
 rcl_publisher_t publisher;
-std_msgs__msg__Int32 msg;
+std_msgs__msg__Int32 pub_msg;
 
 rclc_executor_t executor;
 rclc_support_t support;
@@ -55,9 +55,9 @@ void subscription_callback(const void * msgin)
 {  
   if (timer != NULL) {
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-    RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
-  digitalWrite(LED2, (msg->data == 0) ? LOW : HIGH);  
-    msg.data++;
+    RCSOFTCHECK(rcl_publish(&publisher, &sub_msg, NULL));
+  digitalWrite(LED2, (sub_msg->data == 0) ? LOW : HIGH);  
+    sub_msg.data++;
   }
 }
 }
@@ -95,7 +95,7 @@ void setup() {
   RCCHECK(rclc_subscription_init_default(
     &subscriber,
     &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, sub_msg, Int32),
     "micro_ros_arduino_subscriber"));
 
 
@@ -103,7 +103,7 @@ void setup() {
   RCCHECK(rclc_publisher_init_default(
     &publisher,
     &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, pub_msg, Int32),
     "micro_ros_platformio_node_publisher"));
 
   // create timer,
@@ -117,9 +117,9 @@ void setup() {
   // create executor
   RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg, &subscription_callback, ON_NEW_DATA));
+  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &sub_msg, &subscription_callback, ON_NEW_DATA));
 
-  msg.data = 0;
+  pub_msg.data = 0;
 }
 
 void loop() {
