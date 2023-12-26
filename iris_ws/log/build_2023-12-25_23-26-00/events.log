@@ -1,0 +1,541 @@
+[0.000000] (-) TimerEvent: {}
+[0.001558] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002152] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002432] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.002590] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/iris/iris/iris_ws/install/micro_ros_msgs')])}
+[0.002909] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.099052] (-) TimerEvent: {}
+[0.199910] (-) TimerEvent: {}
+[0.226548] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.300095] (-) TimerEvent: {}
+[0.401029] (-) TimerEvent: {}
+[0.443826] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.501257] (-) TimerEvent: {}
+[0.602495] (-) TimerEvent: {}
+[0.666683] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.669732] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.672255] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.684689] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.687412] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.688587] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.706302] (-) TimerEvent: {}
+[0.707441] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.708486] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/iris/iris/iris_ws/src/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/v4l2_camera'], 'cwd': '/home/iris/iris/iris_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.806536] (-) TimerEvent: {}
+[0.889219] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.907743] (-) TimerEvent: {}
+[0.939954] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[0.950391] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[0.977692] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.001603] (v4l2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.007980] (-) TimerEvent: {}
+[1.090936] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.100477] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.108227] (-) TimerEvent: {}
+[1.128118] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[1.136315] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.145357] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[1.187892] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iris/iris/iris_ws/build/micro_ros_setup'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.208442] (-) TimerEvent: {}
+[1.210116] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[1.225707] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.226671] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[1.227379] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[1.228044] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[1.228798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[1.229738] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[1.230464] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[1.231204] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[1.232582] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[1.233452] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[1.234374] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[1.235386] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[1.237603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[1.242227] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[1.244018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[1.245248] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[1.250421] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config\n'}
+[1.251792] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[1.252880] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[1.254188] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[1.257016] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[1.258320] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[1.265090] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[1.266017] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[1.267123] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[1.268128] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[1.269316] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[1.270304] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[1.271467] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[1.273464] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos\n'}
+[1.287483] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[1.289378] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[1.291397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[1.292765] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[1.294002] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[1.295552] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[1.296505] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[1.297346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[1.298068] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[1.299001] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[1.299829] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[1.300429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[1.305986] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[1.307084] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[1.309856] (-) TimerEvent: {}
+[1.311878] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[1.329510] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[1.330111] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[1.330626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[1.331115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[1.331666] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[1.332264] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[1.332931] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[1.333597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[1.334349] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[1.335055] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[1.335670] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[1.336347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[1.337201] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[1.337888] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[1.338572] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[1.339435] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[1.340135] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[1.340783] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[1.342190] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[1.342964] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[1.343533] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[1.344188] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[1.344797] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[1.345745] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[1.346643] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[1.347465] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[1.348279] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[1.359418] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[1.362016] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[1.363759] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[1.367034] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[1.368080] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[1.370398] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[1.373377] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[1.376542] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[1.378707] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[1.380538] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[1.383278] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[1.385444] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[1.387773] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[1.390600] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[1.392184] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[1.393012] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[1.394683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[1.396484] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[1.398841] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[1.399793] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[1.401750] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[1.402972] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[1.405228] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[1.407789] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[1.409715] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[1.410420] (-) TimerEvent: {}
+[1.411672] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[1.415966] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[1.417096] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr\n'}
+[1.425897] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[1.426481] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[1.427215] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[1.427852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[1.428507] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[1.429230] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[1.429782] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[1.430390] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[1.430895] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[1.431621] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[1.432397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[1.432945] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[1.433646] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[1.434387] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[1.435020] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[1.435553] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host\n'}
+[1.436057] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic\n'}
+[1.436634] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[1.449480] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[1.449930] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[1.450534] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[1.451033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[1.451418] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[1.451876] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[1.452273] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[1.452759] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[1.453421] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android\n'}
+[1.454213] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic\n'}
+[1.454716] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[1.455221] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[1.455716] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[1.456272] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[1.456759] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[1.457280] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[1.457699] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[1.458214] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[1.458648] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[1.459132] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[1.459626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[1.460338] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[1.460927] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[1.461448] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[1.461913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[1.462423] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[1.462870] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[1.463340] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[1.463794] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[1.464317] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[1.464786] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed\n'}
+[1.477990] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[1.478623] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[1.479121] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[1.479695] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[1.480211] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[1.480767] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[1.481466] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[1.482127] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[1.482865] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[1.483648] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[1.484397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[1.485165] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[1.485778] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian\n'}
+[1.486678] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[1.487370] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[1.488033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[1.488782] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[1.495371] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[1.496091] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[1.496682] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[1.497677] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[1.498090] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[1.498546] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[1.498926] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[1.499420] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[1.499851] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[1.500371] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[1.500989] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[1.507893] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[1.524945] (-) TimerEvent: {}
+[1.527280] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[1.528659] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[1.531180] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[1.532204] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[1.533132] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[1.535406] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[1.537014] (v4l2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.546071] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.546924] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[1.608125] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[1.625442] (-) TimerEvent: {}
+[1.726689] (-) TimerEvent: {}
+[1.733178] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.792142] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[1.822382] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.827223] (-) TimerEvent: {}
+[1.850120] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.874180] (v4l2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.875456] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.877571] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.892042] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.927406] (-) TimerEvent: {}
+[2.028322] (-) TimerEvent: {}
+[2.130948] (-) TimerEvent: {}
+[2.233018] (-) TimerEvent: {}
+[2.256997] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.284862] (v4l2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.286312] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.287572] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.311502] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[2.330558] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[2.333150] (-) TimerEvent: {}
+[2.433897] (-) TimerEvent: {}
+[2.493633] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.497172] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[2.498299] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[2.499315] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[2.514574] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.518741] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.534167] (-) TimerEvent: {}
+[2.635264] (-) TimerEvent: {}
+[2.654331] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[2.699299] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.735466] (-) TimerEvent: {}
+[2.836163] (-) TimerEvent: {}
+[2.936876] (-) TimerEvent: {}
+[3.037700] (-) TimerEvent: {}
+[3.089803] (v4l2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.138128] (-) TimerEvent: {}
+[3.235145] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[3.236131] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iris/iris/iris_ws/build/micro_ros_msgs'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[3.243975] (-) TimerEvent: {}
+[3.272553] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.273374] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[3.274024] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.274614] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.275014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[3.275681] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.276174] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[3.276602] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[3.277245] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[3.277873] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[3.278444] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[3.278983] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[3.279476] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[3.280009] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[3.280438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[3.280782] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[3.281338] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[3.281804] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[3.282165] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[3.282878] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.283574] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[3.284166] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[3.284572] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[3.285125] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[3.285602] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.285969] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.286367] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.286958] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[3.287321] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[3.287698] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[3.288308] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.288717] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.289480] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.290398] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.291231] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.291670] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.292028] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[3.292863] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[3.293503] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[3.293959] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[3.294351] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[3.295052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[3.295508] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.296343] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[3.297109] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.297790] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.298464] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[3.299203] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.299907] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[3.300686] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[3.301419] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[3.302059] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[3.302869] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[3.303427] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[3.303963] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[3.304319] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[3.304700] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[3.305391] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[3.305765] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[3.306101] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.306761] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.307334] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.307816] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.308461] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.309118] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.309683] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[3.310115] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.310484] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.311133] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.311510] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.311883] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.312303] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[3.312659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.313299] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[3.313614] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.313950] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.314570] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[3.315085] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.315575] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[3.316021] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[3.316397] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[3.316850] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.0-py3.10.egg-info\n'}
+[3.317425] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.317818] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.318345] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.319707] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.321139] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[3.321797] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[3.322531] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[3.323245] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[3.324121] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[3.324765] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[3.325506] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[3.326239] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[3.326824] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[3.327306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.327805] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.328209] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.328522] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[3.328893] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.329349] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.329775] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.330115] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.344225] (-) TimerEvent: {}
+[3.446363] (-) TimerEvent: {}
+[3.479853] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[3.492943] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[3.504019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.506186] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.508389] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.510409] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.511535] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[3.512371] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[3.512910] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[3.513473] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[3.513895] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[3.514279] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[3.514665] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[3.515071] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[3.515475] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[3.515919] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[3.516352] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[3.516764] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[3.517362] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[3.517786] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[3.518140] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[3.518428] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[3.518708] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[3.519125] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[3.519704] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[3.520128] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.521035] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.521637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.522367] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.522960] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.523689] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.524230] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.525059] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.525794] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.526283] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.527099] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.528497] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.529121] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.529480] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.529942] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.530397] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.530845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.531264] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.531726] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.532202] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.532527] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.533207] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.533637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.534137] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[3.534528] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[3.534866] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[3.541052] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.546486] (-) TimerEvent: {}
+[3.648004] (-) TimerEvent: {}
+[3.749181] (-) TimerEvent: {}
+[3.849965] (-) TimerEvent: {}
+[3.950735] (-) TimerEvent: {}
+[4.051389] (-) TimerEvent: {}
+[4.152004] (-) TimerEvent: {}
+[4.244410] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.252183] (-) TimerEvent: {}
+[4.285249] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.341250] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.352440] (-) TimerEvent: {}
+[4.420844] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.452629] (-) TimerEvent: {}
+[4.535663] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.552788] (-) TimerEvent: {}
+[4.653869] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[4.657460] (-) TimerEvent: {}
+[4.658254] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[4.757618] (-) TimerEvent: {}
+[4.858632] (-) TimerEvent: {}
+[4.913109] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[4.915485] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[4.916466] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/opt/ros/humble')]), 'shell': False}
+[4.923709] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.944739] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.958847] (-) TimerEvent: {}
+[5.059681] (-) TimerEvent: {}
+[5.142224] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[5.159899] (-) TimerEvent: {}
+[5.179249] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[5.260101] (-) TimerEvent: {}
+[5.343128] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[5.344227] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iris/iris/iris_ws/build/micro_ros_agent'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 51197 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 51197 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/opt/ros/humble')]), 'shell': False}
+[5.360355] (-) TimerEvent: {}
+[5.378176] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.378904] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[5.379447] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[5.380167] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[5.380685] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[5.381373] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[5.381865] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[5.382577] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[5.383245] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[5.383598] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[5.383957] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[5.384394] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[5.384790] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[5.385951] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.386463] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[5.386791] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[5.387082] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[5.387558] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[5.388788] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[5.389538] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[5.394712] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[5.461893] (-) TimerEvent: {}
+[5.466439] (v4l2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.562173] (-) TimerEvent: {}
+[5.638513] (v4l2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.662349] (-) TimerEvent: {}
+[5.763922] (-) TimerEvent: {}
+[5.891151] (-) TimerEvent: {}
+[5.947838] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.991484] (-) TimerEvent: {}
+[6.019556] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.092014] (-) TimerEvent: {}
+[6.193168] (-) TimerEvent: {}
+[6.196577] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[6.293377] (-) TimerEvent: {}
+[6.335464] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.336472] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.393586] (-) TimerEvent: {}
+[6.494464] (-) TimerEvent: {}
+[6.595301] (-) TimerEvent: {}
+[6.653153] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.657261] (v4l2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.695469] (-) TimerEvent: {}
+[6.796169] (-) TimerEvent: {}
+[6.896837] (-) TimerEvent: {}
+[6.997487] (-) TimerEvent: {}
+[7.098115] (-) TimerEvent: {}
+[7.198756] (-) TimerEvent: {}
+[7.299429] (-) TimerEvent: {}
+[7.400059] (-) TimerEvent: {}
+[7.500695] (-) TimerEvent: {}
+[7.601369] (-) TimerEvent: {}
+[7.701999] (-) TimerEvent: {}
+[7.802623] (-) TimerEvent: {}
+[7.903266] (-) TimerEvent: {}
+[8.003974] (-) TimerEvent: {}
+[8.104639] (-) TimerEvent: {}
+[8.205279] (-) TimerEvent: {}
+[8.305890] (-) TimerEvent: {}
+[8.377473] (v4l2_camera) StderrLine: {'line': b'\x1b[0mCUDA_TOOLKIT_ROOT_DIR not found or specified\x1b[0m\n'}
+[8.404526] (v4l2_camera) StdoutLine: {'line': b'-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) \n'}
+[8.405972] (-) TimerEvent: {}
+[8.412559] (v4l2_camera) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[8.413255] (v4l2_camera) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'image_transport' was\n"}
+[8.413616] (v4l2_camera) StderrLine: {'line': b'  not found before\n'}
+[8.413961] (v4l2_camera) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.414304] (v4l2_camera) StderrLine: {'line': b'  CMakeLists.txt:50 (ament_target_dependencies)\n'}
+[8.414707] (v4l2_camera) StderrLine: {'line': b'\n'}
+[8.415167] (v4l2_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[8.415632] (v4l2_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.416088] (v4l2_camera) StdoutLine: {'line': b'See also "/home/iris/iris/iris_ws/build/v4l2_camera/CMakeFiles/CMakeOutput.log".\n'}
+[8.452384] (v4l2_camera) CommandEnded: {'returncode': 1}
+[8.506401] (-) TimerEvent: {}
+[8.610129] (-) TimerEvent: {}
+[8.618441] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 1}
+[8.630017] (-) EventReactorShutdown: {}

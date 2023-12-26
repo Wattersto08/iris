@@ -1,0 +1,9 @@
+[33mCMake Warning at CMakeLists.txt:4 (message):
+  The 'raspicam2' package is deprecated.  Use 'camera_ros'
+  (https://github.com/christianrauch/camera_ros) instead.
+
+[0m
+[31mCMake Error at CMakeLists.txt:28 (FIND_LIBRARY):
+  Could not find mmal_LIBS using the following names: mmal
+
+[0m
