@@ -341,8 +341,3 @@ void loop() {
   RCSOFTCHECK(rclc_executor_spin_some(&executorCT, RCL_MS_TO_NS(100)));
 
 }
-
-
-
-main.cpp
-Displaying main.cpp.
