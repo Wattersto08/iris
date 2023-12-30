@@ -65,10 +65,7 @@ unsigned int num_handles = 2 + 2;   // 2 subscriber, 2 publisher
 
 // Variable setup 
 const unsigned int timer_timeout = 100;
-
-int x_motor_pwr = 0;
-int y_motor_pwr = 0;
-
+  
 // Error handle loop
 void error_loop() {
   digitalWrite(LED1, HIGH);
@@ -78,30 +75,6 @@ void error_loop() {
     digitalWrite(LED2, !digitalRead(LED2));
     delay(100);
   }
-}
-
-void set_motorX_pwr(int pwr){
-  if(pwr > 0){
-    digitalWrite(M1A,LOW);
-    digitalWrite(M1B,HIGH);
-  }
-  else{
-    digitalWrite(M1A,HIGH);
-    digitalWrite(M1B,LOW);
-  }
-  analogWrite(M1PWM,abs(pwr));
-}
-
-void set_motorY_pwr(int pwr){
-  if(pwr > 0){
-    digitalWrite(M2A,LOW);
-    digitalWrite(M2B,HIGH);
-  }
-  else{
-    digitalWrite(M2A,HIGH);
-    digitalWrite(M2B,LOW);
-  }
-  analogWrite(M2PWM,abs(pwr));
 }
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
@@ -117,16 +90,12 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
 void subscription_callbackX(const void * msgin)
 {  
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-  x_motor_pwr = msg->data;
-  set_motorX_pwr(x_motor_pwr);
-  digitalWrite(LED1, (x_motor_pwr == 0) ? LOW : HIGH);  
+  digitalWrite(LED1, (msg->data == 0) ? LOW : HIGH);  
 }
 
 void subscription_callbackY(const void * msgin)
 {  
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-  y_motor_pwr = msg->data;
-  set_motorY_pwr(y_motor_pwr);
   digitalWrite(LED2, (msg->data == 0) ? LOW : HIGH);  
 }
 
