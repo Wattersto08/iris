@@ -1,7 +1,7 @@
 # Iris
 
 Todo:
-- Rebuild DSLR handler - [ ]
+- Rebuild DSLR handler [ ]
 - integrate webcam to ros2 
 - integrate DSLR to ros2 
 - uros testing -> pub sub working adding hardware functionality to come, motors need testing 
