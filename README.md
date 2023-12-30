@@ -1,7 +1,7 @@
 # Iris
 
 Todo:
-- Rebuild DSLR handler 
+- Rebuild DSLR handler -[]
 - integrate webcam to ros2 
 - integrate DSLR to ros2 
 - uros testing -> pub sub working adding hardware functionality to come, motors need testing 
@@ -15,6 +15,7 @@ NICE TO HAVES:
 
 - add additional topic for hardware for mode control for example 
     *int topic*
+  
    | Mode           | value |
    |----------------|-------|
    | standbye       |   0   |
