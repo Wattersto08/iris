@@ -16,12 +16,12 @@
 // ros init 
 
 //publisher
-rcl_publisher_t publisherX, publisherY;
-std_msgs__msg__Int32 msg_pubX, msg_pubY;
+rcl_publisher_t publisher;
+std_msgs__msg__Int32 msg_pub;
 
 // subscriber
-rcl_subscription_t subscriberX, subscriberY;
-std_msgs__msg__Int32 msg_subX, msg_subY;
+rcl_subscription_t subscriber;
+std_msgs__msg__Int32 msg_sub;
 
 // publisher and subscriber common
 rcl_node_t node;
@@ -29,8 +29,7 @@ rclc_support_t support;
 rcl_allocator_t allocator;
 rclc_executor_t executor;
 rcl_timer_t timer;
-
-unsigned int num_handles = 2 + 2;   // 2 subscriber, 2 publisher
+unsigned int num_handles = 1 + 1;   // 1 subscriber, 1 publisher
 
 #define RCCHECK(fn){rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
@@ -38,31 +37,31 @@ unsigned int num_handles = 2 + 2;   // 2 subscriber, 2 publisher
 // pin defintiions 
 
 // general
-#define LED1 23
-#define LED2 22
-#define Pushbutton1 21
-#define Pushbutton2 20
+#define LED1 = 23
+#define LED2 = 22
+#define Pushbutton1 = 21
+#define Pushbutton2 = 20
 
-#define MEN 3
+#define MEN = 3
 
 // X axis 
-#define EncXA 37
-#define EncXB 36
-#define LimSwX 38
+#define EncXA = 37
+#define EncXB = 36
+#define LimSwX = 38
 
-#define M1A 1
-#define M1B 2
-#define M1PWM 0
+#define M1A = 1
+#define M1B = 2
+#define M1PWM = 0
 
 
 // Y axis 
-#define EncYA 35
-#define EncYB 34
-#define LimSwY 33
+#define EncYA = 35
+#define EncYB = 34
+#define LimSwY = 33
 
-#define M2A 4
-#define M2B 5
-#define M2PWM 8
+#define M2A = 4
+#define M2B = 5
+#define M2PWM = 8
 
 
 
@@ -72,37 +71,25 @@ const unsigned int timer_timeout = 100;
 
 // Error handle loop
 void error_loop() {
-  digitalWrite(LED1, HIGH);
-  digitalWrite(LED2, LOW);
   while(1) {
-    digitalWrite(LED1, !digitalRead(LED1));
     digitalWrite(LED2, !digitalRead(LED2));
-    delay(100);
+    delay(500);
   }
 }
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
-    RCSOFTCHECK(rcl_publish(&publisherX, &msg_pubX, NULL));
-    msg_pubX.data++;
-    RCSOFTCHECK(rcl_publish(&publisherY, &msg_pubY, NULL));
-    msg_pubY.data++;
+    RCSOFTCHECK(rcl_publish(&publisher, &msg_pub, NULL));
+    msg_pub.data++;
   }
 }
 
 
-
-void subscription_callbackX(const void * msgin)
+void subscription_callback(const void * msgin)
 {  
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
   digitalWrite(LED1, (msg->data == 0) ? LOW : HIGH);  
-}
-
-void subscription_callbackY(const void * msgin)
-{  
-  const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-  digitalWrite(LED2, (msg->data == 0) ? LOW : HIGH);  
 }
 
 void setup() {
@@ -126,51 +113,34 @@ void setup() {
   // create node
   RCCHECK(rclc_node_init_default(&node, "iris_control_system", "", &support));
 
-  // Axis topic init 
-
-// X axis topic init 
+  // create publisher
   RCCHECK(rclc_publisher_init_default(
-    &publisherX,
+    &publisher,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-    "iris/currentX"));
+    "iris/current"));
 
+  // create subscriber
   RCCHECK(rclc_subscription_init_default(
-    &subscriberX,
+    &subscriber,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-    "iris/targetX"));
+    "iris/target"));
 
-  // create X update timer,
+  // create timer,
+
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
     RCL_MS_TO_NS(timer_timeout),
     timer_callback));
 
-// Y axis topic init  
-  RCCHECK(rclc_publisher_init_default(
-    &publisherY,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-    "iris/currentY"));
-
-  RCCHECK(rclc_subscription_init_default(
-    &subscriberY,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-    "iris/targetY"));
-
-
-
   // create executor
   RCCHECK(rclc_executor_init(&executor, &support.context, num_handles, &allocator));  
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriberX, &msg_subX, &subscription_callbackX, ON_NEW_DATA));   
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriberY, &msg_subY, &subscription_callbackY, ON_NEW_DATA));  
+  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg_sub, &subscription_callback, ON_NEW_DATA));   
 
-  msg_pubX.data = 0;
-  msg_pubY.data = 0;
+  msg_pub.data = 0;
 }
 
 void loop() {
