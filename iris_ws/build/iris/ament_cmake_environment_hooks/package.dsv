@@ -1,0 +1,4 @@
+source;share/iris/local_setup.bash
+source;share/iris/local_setup.dsv
+source;share/iris/local_setup.sh
+source;share/iris/local_setup.zsh

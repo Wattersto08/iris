@@ -1,0 +1,8 @@
+source;share/iris/hook/cmake_prefix_path.ps1
+source;share/iris/hook/cmake_prefix_path.dsv
+source;share/iris/hook/cmake_prefix_path.sh
+source;share/iris/local_setup.bash
+source;share/iris/local_setup.dsv
+source;share/iris/local_setup.ps1
+source;share/iris/local_setup.sh
+source;share/iris/local_setup.zsh
