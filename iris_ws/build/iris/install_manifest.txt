@@ -1,3 +1,5 @@
+/home/iris/iris/iris_ws/install/iris/share/iris//launch/iris_bringup.py
+/home/iris/iris/iris_ws/install/iris/share/iris//launch/__pycache__/iris_bringup.cpython-310.pyc
 /home/iris/iris/iris_ws/install/iris/share/ament_index/resource_index/package_run_dependencies/iris
 /home/iris/iris/iris_ws/install/iris/share/ament_index/resource_index/parent_prefix_path/iris
 /home/iris/iris/iris_ws/install/iris/share/iris/environment/ament_prefix_path.sh

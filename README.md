@@ -9,7 +9,7 @@ Todo:
 - build encoder functionality out 
 - implement PID control 
 - add homing routine 
-
+- update camera stack to use arducam 16MP autofocus (via csi)
 
 NICE TO HAVES:
 
