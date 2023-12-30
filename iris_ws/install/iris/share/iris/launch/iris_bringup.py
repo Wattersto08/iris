@@ -9,11 +9,12 @@ def generate_launch_description():
             executable='usb_cam_node_exe',
             name='usb_cam'
         ),
+
         Node(
             package='micro_ros_agent',
             executable='micro_ros_agent',
             name='micro_ros_agent',
-            arguments=["serial", "--dev","/dev/ttyACM0"]
+            arguments=["serial", "--dev","/dev/ttyACM0"],
+            output="screen"
         )
     ])
-#ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0

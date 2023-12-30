@@ -9,6 +9,7 @@ def generate_launch_description():
             executable='usb_cam_node_exe',
             name='usb_cam'
         ),
+
         Node(
             package='micro_ros_agent',
             executable='micro_ros_agent',
