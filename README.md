@@ -15,11 +15,11 @@ NICE TO HAVES:
 
 - add additional topic for hardware for mode control for example 
     *int topic*
-    `Mode           value
-    standbye        0
-    standbye_homed  1
-    home X          2
-    home Y          3`
+    `Mode           value`
+    `standbye        0`
+    `standbye_homed  1`
+    `home X          2`
+    `home Y          3`
 
 
 
