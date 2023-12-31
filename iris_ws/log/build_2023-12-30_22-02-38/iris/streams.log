@@ -1,0 +1,34 @@
+[0.408s] Invoking command in '/home/iris/iris/iris_ws/build/iris': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/iris -- -j4 -l4
+[0.499s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.524s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.132s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.137s] -- Added test 'lint_cmake' to check CMake code style
+[2.149s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.158s] -- Added test 'xmllint' to check XML markup files
+[2.170s] -- Configuring done
+[2.215s] -- Generating done
+[2.234s] -- Build files have been written to: /home/iris/iris/iris_ws/build/iris
+[2.652s] Invoked command in '/home/iris/iris/iris_ws/build/iris' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/iris -- -j4 -l4
+[2.810s] Invoking command in '/home/iris/iris/iris_ws/build/iris': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/iris
+[2.871s] -- Install configuration: ""
+[2.880s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris//launch
+[2.883s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris//launch/iris_bringup.py
+[2.891s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris//launch/__pycache__
+[2.898s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris//launch/__pycache__/iris_bringup.cpython-310.pyc
+[2.900s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris//launch/obj_tracking.py
+[2.902s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/ament_index/resource_index/package_run_dependencies/iris
+[2.905s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/ament_index/resource_index/parent_prefix_path/iris
+[2.906s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/environment/ament_prefix_path.sh
+[2.907s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris/environment/ament_prefix_path.dsv
+[2.908s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/environment/path.sh
+[2.908s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris/environment/path.dsv
+[2.909s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/local_setup.bash
+[2.910s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/local_setup.sh
+[2.911s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/local_setup.zsh
+[2.912s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris/local_setup.dsv
+[2.912s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris/package.dsv
+[2.913s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/ament_index/resource_index/packages/iris
+[2.914s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/cmake/irisConfig.cmake
+[2.922s] -- Up-to-date: /home/iris/iris/iris_ws/install/iris/share/iris/cmake/irisConfig-version.cmake
+[2.923s] -- Installing: /home/iris/iris/iris_ws/install/iris/share/iris/package.xml
+[2.924s] Invoked command in '/home/iris/iris/iris_ws/build/iris' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/iris

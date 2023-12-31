@@ -1,0 +1,23 @@
+[4.615s] Invoking command in '/home/iris/iris/iris_ws/src/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[6.144s] running egg_info
+[6.150s] writing ../../build/iris_vision/iris_vision.egg-info/PKG-INFO
+[6.151s] writing dependency_links to ../../build/iris_vision/iris_vision.egg-info/dependency_links.txt
+[6.152s] writing entry points to ../../build/iris_vision/iris_vision.egg-info/entry_points.txt
+[6.152s] writing requirements to ../../build/iris_vision/iris_vision.egg-info/requires.txt
+[6.153s] writing top-level names to ../../build/iris_vision/iris_vision.egg-info/top_level.txt
+[6.164s] reading manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[6.173s] writing manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[6.174s] running build
+[6.175s] running build_py
+[6.175s] running install
+[6.176s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.176s]   warnings.warn(
+[6.177s] running install_lib
+[6.183s] running install_data
+[6.187s] running install_egg_info
+[6.195s] removing '/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[6.197s] Copying ../../build/iris_vision/iris_vision.egg-info to /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info
+[6.205s] running install_scripts
+[6.305s] Installing testsub script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[6.307s] writing list of installed files to '/home/iris/iris/iris_ws/build/iris_vision/install.log'
+[7.000s] Invoked command in '/home/iris/iris/iris_ws/src/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed

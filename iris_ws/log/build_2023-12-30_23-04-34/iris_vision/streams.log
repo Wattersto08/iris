@@ -1,0 +1,31 @@
+[5.675s] Invoking command in '/home/iris/iris/iris_ws/src/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[7.011s] running egg_info
+[7.012s] writing ../../build/iris_vision/iris_vision.egg-info/PKG-INFO
+[7.013s] writing dependency_links to ../../build/iris_vision/iris_vision.egg-info/dependency_links.txt
+[7.013s] writing entry points to ../../build/iris_vision/iris_vision.egg-info/entry_points.txt
+[7.023s] writing requirements to ../../build/iris_vision/iris_vision.egg-info/requires.txt
+[7.024s] writing top-level names to ../../build/iris_vision/iris_vision.egg-info/top_level.txt
+[7.025s] reading manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[7.033s] writing manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[7.034s] running build
+[7.035s] running build_py
+[7.035s] copying iris_vision/image_sub.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[7.040s] running install
+[7.042s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.043s]   warnings.warn(
+[7.053s] running install_lib
+[7.055s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/image_sub.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[7.056s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/image_sub.py to image_sub.cpython-310.pyc
+[7.056s]   File "/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/image_sub.py", line 28
+[7.057s]     except CvBridgeError, e:
+[7.057s]            ^^^^^^^^^^^^^^^^
+[7.058s] SyntaxError: multiple exception types must be parenthesized
+[7.058s] 
+[7.059s] running install_data
+[7.060s] running install_egg_info
+[7.060s] removing '/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[7.066s] Copying ../../build/iris_vision/iris_vision.egg-info to /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info
+[7.067s] running install_scripts
+[7.164s] Installing testsub script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[7.165s] writing list of installed files to '/home/iris/iris/iris_ws/build/iris_vision/install.log'
+[7.547s] Invoked command in '/home/iris/iris/iris_ws/src/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
