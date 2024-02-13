@@ -20,9 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            #'testsub = iris_vision.image_sub:main',
             'talker = iris_vision.publisher_member_function:main',
-            'listener = iris_vision.subscriber_member_function:main',
+            'DSLR_handler = iris_vision.subscriber_member_function:main',
         ]
     },
 )

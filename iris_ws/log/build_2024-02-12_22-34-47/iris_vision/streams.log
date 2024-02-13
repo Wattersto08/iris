@@ -1,0 +1,21 @@
+[10.447s] Invoking command in '/home/iris/iris/iris_ws/build/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iris/iris/iris_ws/build/iris_vision/build --no-deps install_data
+[13.838s] running develop
+[13.872s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.874s]   warnings.warn(
+[13.883s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.884s]   warnings.warn(
+[15.401s] running egg_info
+[15.403s] writing iris_vision.egg-info/PKG-INFO
+[15.411s] writing dependency_links to iris_vision.egg-info/dependency_links.txt
+[15.415s] writing entry points to iris_vision.egg-info/entry_points.txt
+[15.419s] writing requirements to iris_vision.egg-info/requires.txt
+[15.422s] writing top-level names to iris_vision.egg-info/top_level.txt
+[15.442s] reading manifest file 'iris_vision.egg-info/SOURCES.txt'
+[15.453s] writing manifest file 'iris_vision.egg-info/SOURCES.txt'
+[15.476s] running build_ext
+[15.477s] Creating /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris-vision.egg-link (link to .)
+[15.497s] Installing listener script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[15.499s] Installing talker script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[15.501s] 
+[15.502s] Installed /home/iris/iris/iris_ws/build/iris_vision
+[15.504s] running install_data

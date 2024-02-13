@@ -1,0 +1,21 @@
+[0.776s] Invoking command in '/home/iris/iris/iris_ws/build/foxglove_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/foxglove_bridge -- -j4 -l4
+[5.734s] [  3%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/base64.cpp.o[0m
+[5.735s] [  7%] [32mBuilding CXX object CMakeFiles/foxglove_bridge.dir/ros2_foxglove_bridge/src/ros2_foxglove_bridge_node.cpp.o[0m
+[5.736s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.737s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.980s] [ 17%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/foxglove_bridge.cpp.o[0m
+[6.308s] [ 21%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/parameter.cpp.o[0m
+[13.759s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.111s] [ 28%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/serialization.cpp.o[0m
+[15.983s] [ 28%] Built target gtest_main
+[16.035s] [ 32%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o[0m
+[36.475s] [ 35%] [32m[1mLinking CXX executable foxglove_bridge[0m
+[37.640s] [ 35%] Built target foxglove_bridge
+[37.692s] [ 39%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o[0m
+[46.148s] [ 42%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/version.cpp.o[0m
+[65.934s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[66.765s] [ 46%] Built target gtest
+[137.308s] gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:132: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o] Interrupt
+[137.311s] gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:146: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o] Interrupt
+[137.320s] gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/foxglove_bridge_base.dir/all] Interrupt
+[137.321s] gmake: *** [Makefile:146: all] Interrupt

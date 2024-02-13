@@ -1,0 +1,37 @@
+[0.845s] Invoking command in '/home/iris/iris/iris_ws/build/foxglove_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros-foxglove-bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/foxglove_bridge
+[3.200s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[3.204s] -- Using standalone ASIO
+[3.206s] -- ROS_VERSION: 2
+[3.210s] -- ROS_DISTRO: humble
+[3.212s] -- ROS_ROOT: 
+[3.213s] -- Building with ament_cmake
+[3.232s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.233s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.822s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[4.187s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.242s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.318s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.886s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.392s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.417s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.020s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.047s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.395s] -- Found resource_retriever: 3.1.1 (/opt/ros/humble/share/resource_retriever/cmake)
+[7.833s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[7.845s] -- Building tests with ament_cmake
+[7.863s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.883s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.289s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.522s] -- The C compiler identification is GNU 11.4.0
+[8.559s] -- Detecting C compiler ABI info
+[8.897s] -- Detecting C compiler ABI info - done
+[8.923s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.928s] -- Detecting C compile features
+[8.930s] -- Detecting C compile features - done
+[9.009s] -- Configuring done
+[9.155s] -- Generating done
+[9.172s] -- Build files have been written to: /home/iris/iris/iris_ws/build/foxglove_bridge

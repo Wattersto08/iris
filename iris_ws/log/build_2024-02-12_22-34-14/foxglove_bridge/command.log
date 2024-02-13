@@ -1,0 +1,1 @@
+Invoking command in '/home/iris/iris/iris_ws/build/foxglove_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros-foxglove-bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/foxglove_bridge

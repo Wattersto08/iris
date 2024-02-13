@@ -1,0 +1,33 @@
+[0.788s] Invoking command in '/home/iris/iris/iris_ws/build/foxglove_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros-foxglove-bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/foxglove_bridge
+[2.420s] -- The CXX compiler identification is GNU 11.4.0
+[2.421s] -- Detecting CXX compiler ABI info
+[2.421s] -- Detecting CXX compiler ABI info - done
+[2.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.423s] -- Detecting CXX compile features
+[2.423s] -- Detecting CXX compile features - done
+[2.917s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.930s] -- Looking for C++ include pthread.h
+[3.507s] -- Looking for C++ include pthread.h - found
+[3.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.073s] -- Found Threads: TRUE  
+[4.217s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[4.218s]   By not providing "Findwebsocketpp.cmake" in CMAKE_MODULE_PATH this project
+[4.218s]   has asked CMake to find a package configuration file provided by
+[4.219s]   "websocketpp", but CMake did not find one.
+[4.219s] 
+[4.220s]   Could not find a package configuration file provided by "websocketpp" with
+[4.220s]   any of the following names:
+[4.221s] 
+[4.222s]     websocketppConfig.cmake
+[4.223s]     websocketpp-config.cmake
+[4.224s] 
+[4.225s]   Add the installation prefix of "websocketpp" to CMAKE_PREFIX_PATH or set
+[4.225s]   "websocketpp_DIR" to a directory containing one of the above files.  If
+[4.226s]   "websocketpp" provides a separate development package or SDK, be sure it
+[4.227s]   has been installed.
+[4.228s] 
+[4.229s] [0m
+[4.231s] -- Configuring incomplete, errors occurred!
+[4.233s] See also "/home/iris/iris/iris_ws/build/foxglove_bridge/CMakeFiles/CMakeOutput.log".
+[4.237s] Invoked command in '/home/iris/iris/iris_ws/build/foxglove_bridge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros-foxglove-bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/foxglove_bridge

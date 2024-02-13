@@ -12,7 +12,11 @@ iris_vision/__init__.py
 iris_vision/image_sub.py
 iris_vision/publisher_member_function.py
 iris_vision/subscriber_member_function.py
+iris_vision.egg-info/PKG-INFO
+iris_vision.egg-info/SOURCES.txt
+iris_vision.egg-info/dependency_links.txt
+iris_vision.egg-info/entry_points.txt
+iris_vision.egg-info/requires.txt
+iris_vision.egg-info/top_level.txt
+iris_vision.egg-info/zip-safe
 resource/iris_vision
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

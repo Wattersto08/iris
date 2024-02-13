@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:132: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:146: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/foxglove_bridge_base.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

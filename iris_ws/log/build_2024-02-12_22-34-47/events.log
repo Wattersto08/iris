@@ -1,0 +1,1623 @@
+[0.000000] (-) TimerEvent: {}
+[0.001706] (foxglove_bridge) JobQueued: {'identifier': 'foxglove_bridge', 'dependencies': OrderedDict()}
+[0.002262] (iris_vision) JobQueued: {'identifier': 'iris_vision', 'dependencies': OrderedDict()}
+[0.002537] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002697] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.003011] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/iris/iris/iris_ws/install/micro_ros_msgs')])}
+[0.003256] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.099047] (-) TimerEvent: {}
+[0.199765] (-) TimerEvent: {}
+[0.233380] (foxglove_bridge) JobStarted: {'identifier': 'foxglove_bridge'}
+[0.299999] (-) TimerEvent: {}
+[0.400693] (-) TimerEvent: {}
+[0.458371] (iris_vision) JobStarted: {'identifier': 'iris_vision'}
+[0.500891] (-) TimerEvent: {}
+[0.601977] (-) TimerEvent: {}
+[0.703243] (-) TimerEvent: {}
+[0.742108] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.803378] (-) TimerEvent: {}
+[0.904305] (-) TimerEvent: {}
+[0.973920] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.976746] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.979368] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 64770 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris_vision:/home/iris/iris/iris_ws/install/iris:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 64770 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble')]), 'shell': False}
+[0.992137] (foxglove_bridge) JobProgress: {'identifier': 'foxglove_bridge', 'progress': 'cmake'}
+[0.995472] (foxglove_bridge) JobProgress: {'identifier': 'foxglove_bridge', 'progress': 'build'}
+[0.996818] (foxglove_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/foxglove_bridge', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/foxglove_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 64770 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris_vision:/home/iris/iris/iris_ws/install/iris:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/foxglove_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 64770 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble')]), 'shell': False}
+[1.010700] (-) TimerEvent: {}
+[1.111405] (-) TimerEvent: {}
+[1.213108] (-) TimerEvent: {}
+[1.314703] (-) TimerEvent: {}
+[1.416087] (-) TimerEvent: {}
+[1.517025] (-) TimerEvent: {}
+[1.618434] (-) TimerEvent: {}
+[1.720007] (-) TimerEvent: {}
+[1.821357] (-) TimerEvent: {}
+[1.922946] (-) TimerEvent: {}
+[2.024549] (-) TimerEvent: {}
+[2.126093] (-) TimerEvent: {}
+[2.227739] (-) TimerEvent: {}
+[2.329292] (-) TimerEvent: {}
+[2.430976] (-) TimerEvent: {}
+[2.538801] (-) TimerEvent: {}
+[2.649997] (-) TimerEvent: {}
+[2.751431] (-) TimerEvent: {}
+[2.853084] (-) TimerEvent: {}
+[2.954247] (-) TimerEvent: {}
+[3.055282] (-) TimerEvent: {}
+[3.156366] (-) TimerEvent: {}
+[3.258631] (-) TimerEvent: {}
+[3.360619] (-) TimerEvent: {}
+[3.462632] (-) TimerEvent: {}
+[3.564508] (-) TimerEvent: {}
+[3.666360] (-) TimerEvent: {}
+[3.770512] (-) TimerEvent: {}
+[3.883155] (-) TimerEvent: {}
+[3.985092] (-) TimerEvent: {}
+[4.086714] (-) TimerEvent: {}
+[4.188656] (-) TimerEvent: {}
+[4.291635] (-) TimerEvent: {}
+[4.393500] (-) TimerEvent: {}
+[4.507586] (-) TimerEvent: {}
+[4.619496] (-) TimerEvent: {}
+[4.727513] (-) TimerEvent: {}
+[4.834645] (-) TimerEvent: {}
+[4.936343] (-) TimerEvent: {}
+[5.047626] (-) TimerEvent: {}
+[5.154243] (-) TimerEvent: {}
+[5.255390] (-) TimerEvent: {}
+[5.357754] (-) TimerEvent: {}
+[5.487519] (-) TimerEvent: {}
+[5.603512] (-) TimerEvent: {}
+[5.704737] (-) TimerEvent: {}
+[5.813693] (-) TimerEvent: {}
+[5.915707] (-) TimerEvent: {}
+[5.942351] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[5.943557] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[5.944353] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[5.945027] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.945699] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.946404] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[5.947177] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[5.948522] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[5.956168] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[5.957150] (micro_ros_msgs) StderrLine: {'line': b"failed to create symbolic link '/home/iris/iris/iris_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory\n"}
+[5.958286] (micro_ros_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Error 1\n'}
+[5.959107] (micro_ros_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2\n'}
+[5.966587] (micro_ros_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.967396] (foxglove_bridge) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/base64.cpp.o\x1b[0m\n'}
+[5.968681] (foxglove_bridge) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge.dir/ros2_foxglove_bridge/src/ros2_foxglove_bridge_node.cpp.o\x1b[0m\n'}
+[5.969408] (foxglove_bridge) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[5.970166] (foxglove_bridge) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.988731] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[6.000721] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[6.001040] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iris/iris/iris_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 64770 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris_vision:/home/iris/iris/iris_ws/install/iris:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 64770 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble')]), 'shell': False}
+[6.015919] (-) TimerEvent: {}
+[6.117093] (-) TimerEvent: {}
+[6.213721] (foxglove_bridge) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/foxglove_bridge.cpp.o\x1b[0m\n'}
+[6.217426] (-) TimerEvent: {}
+[6.319354] (-) TimerEvent: {}
+[6.421793] (-) TimerEvent: {}
+[6.441254] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[6.522107] (-) TimerEvent: {}
+[6.540964] (foxglove_bridge) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/parameter.cpp.o\x1b[0m\n'}
+[6.622426] (-) TimerEvent: {}
+[6.724300] (-) TimerEvent: {}
+[6.825991] (-) TimerEvent: {}
+[6.883168] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[6.926211] (-) TimerEvent: {}
+[6.981030] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iris/iris/iris_ws/build/micro_ros_setup'], 'cwd': '/home/iris/iris/iris_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iris'), ('SSH_CLIENT', '192.168.8.140 64770 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/iris'), ('OLDPWD', '/home/iris/iris/iris_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.4'), ('COLCON_PREFIX_PATH', '/home/iris/iris/iris_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'iris'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris_vision:/home/iris/iris/iris_ws/install/iris:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/iris/iris/iris_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 64770 192.168.8.188 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble')]), 'shell': False}
+[7.026571] (-) TimerEvent: {}
+[7.055670] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.066205] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.068423] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[7.070141] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[7.071736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[7.073148] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[7.074578] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[7.088126] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[7.089414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[7.090786] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[7.092131] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[7.093486] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[7.094980] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[7.096922] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[7.098381] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[7.111732] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[7.113203] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[7.114615] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[7.123945] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[7.125093] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[7.126028] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[7.126613] (-) TimerEvent: {}
+[7.127385] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[7.128610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[7.129601] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[7.130607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[7.131620] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[7.132690] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/iris/iris/iris_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[7.140363] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config\n'}
+[7.141644] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[7.142555] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[7.143868] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[7.144966] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[7.145849] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[7.148082] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[7.149641] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[7.151043] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[7.152605] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[7.153820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[7.154580] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[7.155409] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[7.162249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos\n'}
+[7.163387] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[7.164926] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[7.176447] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[7.177302] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[7.178092] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[7.178963] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[7.180074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[7.181345] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[7.182314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[7.183498] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[7.185079] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[7.192382] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[7.193581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[7.195186] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[7.196486] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[7.197466] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[7.198268] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[7.198992] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[7.199770] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[7.200525] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[7.201681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[7.202678] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[7.203537] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[7.204681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[7.206275] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[7.219614] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[7.221036] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[7.222947] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[7.224113] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[7.229101] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[7.230025] (-) TimerEvent: {}
+[7.230766] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[7.237282] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[7.238811] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[7.240068] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[7.241186] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[7.241891] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[7.242557] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[7.243609] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[7.244540] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[7.245414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[7.246110] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[7.246981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[7.248144] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[7.249046] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[7.249960] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[7.250778] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[7.263330] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[7.264233] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[7.264947] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[7.265612] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[7.266414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[7.283454] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[7.284328] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[7.285052] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[7.285824] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[7.286512] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[7.287494] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[7.288351] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[7.289174] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[7.290019] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[7.290938] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[7.292107] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[7.293115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[7.294066] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[7.295160] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[7.316283] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[7.317135] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[7.317903] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[7.318564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr\n'}
+[7.319217] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[7.320022] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[7.320878] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[7.321646] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[7.322506] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[7.326561] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[7.333886] (-) TimerEvent: {}
+[7.335427] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[7.336589] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[7.337521] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[7.338414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[7.339327] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[7.340250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[7.341159] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[7.342063] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[7.342990] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[7.344061] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host\n'}
+[7.344947] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic\n'}
+[7.356343] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[7.357614] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[7.360453] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[7.362064] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[7.363941] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[7.371676] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[7.372859] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[7.373794] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[7.374663] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[7.375878] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android\n'}
+[7.376924] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic\n'}
+[7.377659] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[7.378805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[7.379900] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[7.380848] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[7.381686] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[7.382640] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[7.383574] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[7.384385] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[7.385285] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[7.386142] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[7.386991] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[7.403925] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[7.404872] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[7.405700] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[7.406537] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[7.407414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[7.408268] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[7.409047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[7.409965] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[7.410737] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[7.416311] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed\n'}
+[7.424967] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[7.426453] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[7.428009] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[7.430014] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[7.432765] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[7.433783] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[7.434811] (-) TimerEvent: {}
+[7.436620] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[7.437388] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[7.438014] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[7.438788] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[7.444346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[7.463723] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[7.464711] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian\n'}
+[7.465693] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[7.466429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[7.467632] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[7.468580] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[7.469404] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[7.470379] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[7.471434] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[7.493166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[7.494489] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[7.495679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/iris/iris/iris_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[7.496543] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[7.535359] (-) TimerEvent: {}
+[7.637461] (-) TimerEvent: {}
+[7.739772] (-) TimerEvent: {}
+[7.762216] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.845385] (-) TimerEvent: {}
+[7.946499] (-) TimerEvent: {}
+[8.048757] (-) TimerEvent: {}
+[8.150278] (-) TimerEvent: {}
+[8.251957] (-) TimerEvent: {}
+[8.353649] (-) TimerEvent: {}
+[8.455584] (-) TimerEvent: {}
+[8.558607] (-) TimerEvent: {}
+[8.669436] (-) TimerEvent: {}
+[8.771147] (-) TimerEvent: {}
+[8.812848] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.822266] (micro_ros_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.871566] (-) TimerEvent: {}
+[8.978859] (-) TimerEvent: {}
+[9.081289] (-) TimerEvent: {}
+[9.185935] (-) TimerEvent: {}
+[9.292509] (-) TimerEvent: {}
+[9.399783] (-) TimerEvent: {}
+[9.508099] (-) TimerEvent: {}
+[9.611307] (-) TimerEvent: {}
+[9.796666] (-) TimerEvent: {}
+[9.897929] (-) TimerEvent: {}
+[9.999526] (-) TimerEvent: {}
+[10.102946] (-) TimerEvent: {}
+[10.169984] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[10.195305] (micro_ros_msgs) CommandEnded: {'returncode': 2}
+[10.210019] (-) TimerEvent: {}
+[10.311723] (-) TimerEvent: {}
+[10.413641] (-) TimerEvent: {}
+[10.515682] (-) TimerEvent: {}
+[10.617737] (-) TimerEvent: {}
+[10.719607] (-) TimerEvent: {}
+[10.821332] (-) TimerEvent: {}
+[10.899771] (iris_vision) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/iris/iris/iris_ws/build/iris_vision/build', '--no-deps', 'install_data'], 'cwd': '/home/iris/iris/iris_ws/build/iris_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'iris', 'SSH_CLIENT': '192.168.8.140 64770 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/iris/iris/iris_ws/install/micro_ros_agent/lib:/home/iris/iris/iris_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/iris', 'OLDPWD': '/home/iris/iris/iris_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.4.4', 'COLCON_PREFIX_PATH': '/home/iris/iris/iris_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'iris', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris_vision:/home/iris/iris/iris_ws/install/iris:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'PWD': '/home/iris/iris/iris_ws/build/iris_vision', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.140 64770 192.168.8.188 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/home/iris/iris/iris_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/iris/iris/iris_ws/install/micro_ros_setup:/home/iris/iris/iris_ws/install/micro_ros_agent:/home/iris/iris/iris_ws/install/micro_ros_msgs:/home/iris/iris/iris_ws/install/iris'}, 'shell': False}
+[10.926856] (-) TimerEvent: {}
+[11.028740] (-) TimerEvent: {}
+[11.131475] (-) TimerEvent: {}
+[11.234529] (-) TimerEvent: {}
+[11.337589] (-) TimerEvent: {}
+[11.440843] (-) TimerEvent: {}
+[11.544222] (-) TimerEvent: {}
+[11.647331] (-) TimerEvent: {}
+[11.750187] (-) TimerEvent: {}
+[11.853118] (-) TimerEvent: {}
+[11.955718] (-) TimerEvent: {}
+[12.057376] (-) TimerEvent: {}
+[12.160405] (-) TimerEvent: {}
+[12.263450] (-) TimerEvent: {}
+[12.366166] (-) TimerEvent: {}
+[12.468773] (-) TimerEvent: {}
+[12.570790] (-) TimerEvent: {}
+[12.681525] (-) TimerEvent: {}
+[12.783171] (-) TimerEvent: {}
+[12.898065] (-) TimerEvent: {}
+[13.000112] (-) TimerEvent: {}
+[13.101866] (-) TimerEvent: {}
+[13.207784] (-) TimerEvent: {}
+[13.317371] (-) TimerEvent: {}
+[13.427481] (-) TimerEvent: {}
+[13.529641] (-) TimerEvent: {}
+[13.639520] (-) TimerEvent: {}
+[13.742110] (-) TimerEvent: {}
+[13.844366] (-) TimerEvent: {}
+[13.945979] (-) TimerEvent: {}
+[13.992202] (foxglove_bridge) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[14.046279] (-) TimerEvent: {}
+[14.152469] (-) TimerEvent: {}
+[14.254780] (-) TimerEvent: {}
+[14.296268] (iris_vision) StdoutLine: {'line': b'running develop\n'}
+[14.330125] (iris_vision) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.331695] (iris_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.341721] (iris_vision) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.342568] (iris_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.343743] (foxglove_bridge) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/serialization.cpp.o\x1b[0m\n'}
+[14.355897] (-) TimerEvent: {}
+[14.457781] (-) TimerEvent: {}
+[14.571641] (-) TimerEvent: {}
+[14.604937] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 2}
+[14.671875] (-) TimerEvent: {}
+[14.773044] (-) TimerEvent: {}
+[14.874457] (-) TimerEvent: {}
+[14.975439] (-) TimerEvent: {}
+[15.076348] (-) TimerEvent: {}
+[15.177368] (-) TimerEvent: {}
+[15.278461] (-) TimerEvent: {}
+[15.379810] (-) TimerEvent: {}
+[15.480806] (-) TimerEvent: {}
+[15.582416] (-) TimerEvent: {}
+[15.683803] (-) TimerEvent: {}
+[15.785307] (-) TimerEvent: {}
+[15.858674] (iris_vision) StdoutLine: {'line': b'running egg_info\n'}
+[15.861504] (iris_vision) StdoutLine: {'line': b'writing iris_vision.egg-info/PKG-INFO\n'}
+[15.869630] (iris_vision) StdoutLine: {'line': b'writing dependency_links to iris_vision.egg-info/dependency_links.txt\n'}
+[15.873399] (iris_vision) StdoutLine: {'line': b'writing entry points to iris_vision.egg-info/entry_points.txt\n'}
+[15.876939] (iris_vision) StdoutLine: {'line': b'writing requirements to iris_vision.egg-info/requires.txt\n'}
+[15.879498] (iris_vision) StdoutLine: {'line': b'writing top-level names to iris_vision.egg-info/top_level.txt\n'}
+[15.885965] (-) TimerEvent: {}
+[15.899672] (iris_vision) StdoutLine: {'line': b"reading manifest file 'iris_vision.egg-info/SOURCES.txt'\n"}
+[15.911575] (iris_vision) StdoutLine: {'line': b"writing manifest file 'iris_vision.egg-info/SOURCES.txt'\n"}
+[15.933924] (iris_vision) StdoutLine: {'line': b'running build_ext\n'}
+[15.935484] (iris_vision) StdoutLine: {'line': b'Creating /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris-vision.egg-link (link to .)\n'}
+[15.955667] (iris_vision) StdoutLine: {'line': b'Installing listener script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision\n'}
+[15.956895] (iris_vision) StdoutLine: {'line': b'Installing talker script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision\n'}
+[15.959008] (iris_vision) StdoutLine: {'line': b'\n'}
+[15.960094] (iris_vision) StdoutLine: {'line': b'Installed /home/iris/iris/iris_ws/build/iris_vision\n'}
+[15.961697] (iris_vision) StdoutLine: {'line': b'running install_data\n'}
+[15.985960] (-) TimerEvent: {}
+[16.087454] (-) TimerEvent: {}
+[16.189579] (-) TimerEvent: {}
+[16.213993] (iris_vision) JobEnded: {'identifier': 'iris_vision', 'rc': 'SIGINT'}
+[16.216530] (foxglove_bridge) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[16.268166] (foxglove_bridge) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o\x1b[0m\n'}
+[16.289861] (-) TimerEvent: {}
+[16.391185] (-) TimerEvent: {}
+[16.492775] (-) TimerEvent: {}
+[16.594582] (-) TimerEvent: {}
+[16.696419] (-) TimerEvent: {}
+[16.798350] (-) TimerEvent: {}
+[16.900526] (-) TimerEvent: {}
+[17.002437] (-) TimerEvent: {}
+[17.104874] (-) TimerEvent: {}
+[17.208088] (-) TimerEvent: {}
+[17.315522] (-) TimerEvent: {}
+[17.416544] (-) TimerEvent: {}
+[17.517661] (-) TimerEvent: {}
+[17.618989] (-) TimerEvent: {}
+[17.720276] (-) TimerEvent: {}
+[17.821902] (-) TimerEvent: {}
+[17.923475] (-) TimerEvent: {}
+[18.024640] (-) TimerEvent: {}
+[18.125524] (-) TimerEvent: {}
+[18.226466] (-) TimerEvent: {}
+[18.327878] (-) TimerEvent: {}
+[18.428850] (-) TimerEvent: {}
+[18.529868] (-) TimerEvent: {}
+[18.631445] (-) TimerEvent: {}
+[18.734956] (-) TimerEvent: {}
+[18.835937] (-) TimerEvent: {}
+[18.937794] (-) TimerEvent: {}
+[19.039516] (-) TimerEvent: {}
+[19.141475] (-) TimerEvent: {}
+[19.242942] (-) TimerEvent: {}
+[19.344267] (-) TimerEvent: {}
+[19.445472] (-) TimerEvent: {}
+[19.547169] (-) TimerEvent: {}
+[19.648288] (-) TimerEvent: {}
+[19.750650] (-) TimerEvent: {}
+[19.853182] (-) TimerEvent: {}
+[19.956900] (-) TimerEvent: {}
+[20.058690] (-) TimerEvent: {}
+[20.160844] (-) TimerEvent: {}
+[20.262563] (-) TimerEvent: {}
+[20.364705] (-) TimerEvent: {}
+[20.466639] (-) TimerEvent: {}
+[20.568819] (-) TimerEvent: {}
+[20.671964] (-) TimerEvent: {}
+[20.780934] (-) TimerEvent: {}
+[20.882567] (-) TimerEvent: {}
+[20.984146] (-) TimerEvent: {}
+[21.085893] (-) TimerEvent: {}
+[21.187819] (-) TimerEvent: {}
+[21.290857] (-) TimerEvent: {}
+[21.393627] (-) TimerEvent: {}
+[21.495796] (-) TimerEvent: {}
+[21.597502] (-) TimerEvent: {}
+[21.699394] (-) TimerEvent: {}
+[21.801037] (-) TimerEvent: {}
+[21.902775] (-) TimerEvent: {}
+[22.004546] (-) TimerEvent: {}
+[22.106559] (-) TimerEvent: {}
+[22.209170] (-) TimerEvent: {}
+[22.310669] (-) TimerEvent: {}
+[22.412301] (-) TimerEvent: {}
+[22.513870] (-) TimerEvent: {}
+[22.616363] (-) TimerEvent: {}
+[22.718354] (-) TimerEvent: {}
+[22.820138] (-) TimerEvent: {}
+[22.921664] (-) TimerEvent: {}
+[23.023263] (-) TimerEvent: {}
+[23.124992] (-) TimerEvent: {}
+[23.226557] (-) TimerEvent: {}
+[23.328122] (-) TimerEvent: {}
+[23.429676] (-) TimerEvent: {}
+[23.531214] (-) TimerEvent: {}
+[23.632777] (-) TimerEvent: {}
+[23.734511] (-) TimerEvent: {}
+[23.848761] (-) TimerEvent: {}
+[23.950627] (-) TimerEvent: {}
+[24.052561] (-) TimerEvent: {}
+[24.154699] (-) TimerEvent: {}
+[24.256514] (-) TimerEvent: {}
+[24.358358] (-) TimerEvent: {}
+[24.459478] (-) TimerEvent: {}
+[24.560651] (-) TimerEvent: {}
+[24.661922] (-) TimerEvent: {}
+[24.763051] (-) TimerEvent: {}
+[24.864184] (-) TimerEvent: {}
+[24.965321] (-) TimerEvent: {}
+[25.066472] (-) TimerEvent: {}
+[25.167452] (-) TimerEvent: {}
+[25.268436] (-) TimerEvent: {}
+[25.369458] (-) TimerEvent: {}
+[25.470509] (-) TimerEvent: {}
+[25.571640] (-) TimerEvent: {}
+[25.672723] (-) TimerEvent: {}
+[25.773939] (-) TimerEvent: {}
+[25.875170] (-) TimerEvent: {}
+[25.976352] (-) TimerEvent: {}
+[26.077527] (-) TimerEvent: {}
+[26.178636] (-) TimerEvent: {}
+[26.279753] (-) TimerEvent: {}
+[26.380916] (-) TimerEvent: {}
+[26.482041] (-) TimerEvent: {}
+[26.582980] (-) TimerEvent: {}
+[26.684187] (-) TimerEvent: {}
+[26.785336] (-) TimerEvent: {}
+[26.886504] (-) TimerEvent: {}
+[26.987506] (-) TimerEvent: {}
+[27.088520] (-) TimerEvent: {}
+[27.189520] (-) TimerEvent: {}
+[27.290572] (-) TimerEvent: {}
+[27.391585] (-) TimerEvent: {}
+[27.492655] (-) TimerEvent: {}
+[27.593748] (-) TimerEvent: {}
+[27.694775] (-) TimerEvent: {}
+[27.795764] (-) TimerEvent: {}
+[27.896757] (-) TimerEvent: {}
+[27.997839] (-) TimerEvent: {}
+[28.099077] (-) TimerEvent: {}
+[28.200365] (-) TimerEvent: {}
+[28.301926] (-) TimerEvent: {}
+[28.403122] (-) TimerEvent: {}
+[28.504392] (-) TimerEvent: {}
+[28.605503] (-) TimerEvent: {}
+[28.706787] (-) TimerEvent: {}
+[28.808144] (-) TimerEvent: {}
+[28.914283] (-) TimerEvent: {}
+[29.015559] (-) TimerEvent: {}
+[29.117816] (-) TimerEvent: {}
+[29.220202] (-) TimerEvent: {}
+[29.322100] (-) TimerEvent: {}
+[29.423988] (-) TimerEvent: {}
+[29.525808] (-) TimerEvent: {}
+[29.627474] (-) TimerEvent: {}
+[29.729224] (-) TimerEvent: {}
+[29.830964] (-) TimerEvent: {}
+[29.932800] (-) TimerEvent: {}
+[30.035191] (-) TimerEvent: {}
+[30.136970] (-) TimerEvent: {}
+[30.238841] (-) TimerEvent: {}
+[30.341431] (-) TimerEvent: {}
+[30.443292] (-) TimerEvent: {}
+[30.545078] (-) TimerEvent: {}
+[30.646824] (-) TimerEvent: {}
+[30.748614] (-) TimerEvent: {}
+[30.850617] (-) TimerEvent: {}
+[30.952563] (-) TimerEvent: {}
+[31.054333] (-) TimerEvent: {}
+[31.156265] (-) TimerEvent: {}
+[31.258621] (-) TimerEvent: {}
+[31.360399] (-) TimerEvent: {}
+[31.462187] (-) TimerEvent: {}
+[31.564073] (-) TimerEvent: {}
+[31.665896] (-) TimerEvent: {}
+[31.767713] (-) TimerEvent: {}
+[31.869512] (-) TimerEvent: {}
+[31.971469] (-) TimerEvent: {}
+[32.073240] (-) TimerEvent: {}
+[32.175020] (-) TimerEvent: {}
+[32.276767] (-) TimerEvent: {}
+[32.378537] (-) TimerEvent: {}
+[32.480451] (-) TimerEvent: {}
+[32.582473] (-) TimerEvent: {}
+[32.684130] (-) TimerEvent: {}
+[32.785803] (-) TimerEvent: {}
+[32.887487] (-) TimerEvent: {}
+[32.989413] (-) TimerEvent: {}
+[33.091365] (-) TimerEvent: {}
+[33.194076] (-) TimerEvent: {}
+[33.296019] (-) TimerEvent: {}
+[33.397921] (-) TimerEvent: {}
+[33.499714] (-) TimerEvent: {}
+[33.601650] (-) TimerEvent: {}
+[33.703684] (-) TimerEvent: {}
+[33.805521] (-) TimerEvent: {}
+[33.907534] (-) TimerEvent: {}
+[34.009667] (-) TimerEvent: {}
+[34.111487] (-) TimerEvent: {}
+[34.213184] (-) TimerEvent: {}
+[34.315019] (-) TimerEvent: {}
+[34.417108] (-) TimerEvent: {}
+[34.518967] (-) TimerEvent: {}
+[34.620853] (-) TimerEvent: {}
+[34.722659] (-) TimerEvent: {}
+[34.824601] (-) TimerEvent: {}
+[34.926282] (-) TimerEvent: {}
+[35.028066] (-) TimerEvent: {}
+[35.129944] (-) TimerEvent: {}
+[35.231591] (-) TimerEvent: {}
+[35.334131] (-) TimerEvent: {}
+[35.437002] (-) TimerEvent: {}
+[35.539289] (-) TimerEvent: {}
+[35.641162] (-) TimerEvent: {}
+[35.743508] (-) TimerEvent: {}
+[35.845627] (-) TimerEvent: {}
+[35.947446] (-) TimerEvent: {}
+[36.049158] (-) TimerEvent: {}
+[36.150308] (-) TimerEvent: {}
+[36.252639] (-) TimerEvent: {}
+[36.354134] (-) TimerEvent: {}
+[36.455860] (-) TimerEvent: {}
+[36.558018] (-) TimerEvent: {}
+[36.660135] (-) TimerEvent: {}
+[36.708432] (foxglove_bridge) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable foxglove_bridge\x1b[0m\n'}
+[36.760377] (-) TimerEvent: {}
+[36.862209] (-) TimerEvent: {}
+[36.964593] (-) TimerEvent: {}
+[37.066724] (-) TimerEvent: {}
+[37.169299] (-) TimerEvent: {}
+[37.270985] (-) TimerEvent: {}
+[37.372704] (-) TimerEvent: {}
+[37.475080] (-) TimerEvent: {}
+[37.577180] (-) TimerEvent: {}
+[37.679344] (-) TimerEvent: {}
+[37.781217] (-) TimerEvent: {}
+[37.873050] (foxglove_bridge) StdoutLine: {'line': b'[ 35%] Built target foxglove_bridge\n'}
+[37.881516] (-) TimerEvent: {}
+[37.925448] (foxglove_bridge) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o\x1b[0m\n'}
+[37.981808] (-) TimerEvent: {}
+[38.083453] (-) TimerEvent: {}
+[38.184434] (-) TimerEvent: {}
+[38.285432] (-) TimerEvent: {}
+[38.386482] (-) TimerEvent: {}
+[38.487383] (-) TimerEvent: {}
+[38.588306] (-) TimerEvent: {}
+[38.689302] (-) TimerEvent: {}
+[38.790525] (-) TimerEvent: {}
+[38.891481] (-) TimerEvent: {}
+[39.005003] (-) TimerEvent: {}
+[39.106068] (-) TimerEvent: {}
+[39.207106] (-) TimerEvent: {}
+[39.308155] (-) TimerEvent: {}
+[39.409245] (-) TimerEvent: {}
+[39.510416] (-) TimerEvent: {}
+[39.611506] (-) TimerEvent: {}
+[39.712648] (-) TimerEvent: {}
+[39.813950] (-) TimerEvent: {}
+[39.915014] (-) TimerEvent: {}
+[40.016299] (-) TimerEvent: {}
+[40.117598] (-) TimerEvent: {}
+[40.218870] (-) TimerEvent: {}
+[40.319930] (-) TimerEvent: {}
+[40.421003] (-) TimerEvent: {}
+[40.521980] (-) TimerEvent: {}
+[40.623025] (-) TimerEvent: {}
+[40.724308] (-) TimerEvent: {}
+[40.825407] (-) TimerEvent: {}
+[40.926506] (-) TimerEvent: {}
+[41.027789] (-) TimerEvent: {}
+[41.128992] (-) TimerEvent: {}
+[41.230079] (-) TimerEvent: {}
+[41.331272] (-) TimerEvent: {}
+[41.432238] (-) TimerEvent: {}
+[41.533436] (-) TimerEvent: {}
+[41.634622] (-) TimerEvent: {}
+[41.735705] (-) TimerEvent: {}
+[41.836854] (-) TimerEvent: {}
+[41.938003] (-) TimerEvent: {}
+[42.039034] (-) TimerEvent: {}
+[42.140097] (-) TimerEvent: {}
+[42.241252] (-) TimerEvent: {}
+[42.342609] (-) TimerEvent: {}
+[42.443655] (-) TimerEvent: {}
+[42.544771] (-) TimerEvent: {}
+[42.645878] (-) TimerEvent: {}
+[42.746966] (-) TimerEvent: {}
+[42.848055] (-) TimerEvent: {}
+[42.948971] (-) TimerEvent: {}
+[43.050006] (-) TimerEvent: {}
+[43.151111] (-) TimerEvent: {}
+[43.252322] (-) TimerEvent: {}
+[43.353693] (-) TimerEvent: {}
+[43.454938] (-) TimerEvent: {}
+[43.555965] (-) TimerEvent: {}
+[43.657126] (-) TimerEvent: {}
+[43.758210] (-) TimerEvent: {}
+[43.859390] (-) TimerEvent: {}
+[43.960425] (-) TimerEvent: {}
+[44.065933] (-) TimerEvent: {}
+[44.167109] (-) TimerEvent: {}
+[44.268571] (-) TimerEvent: {}
+[44.369796] (-) TimerEvent: {}
+[44.471028] (-) TimerEvent: {}
+[44.572180] (-) TimerEvent: {}
+[44.673128] (-) TimerEvent: {}
+[44.774130] (-) TimerEvent: {}
+[44.875297] (-) TimerEvent: {}
+[44.976527] (-) TimerEvent: {}
+[45.077530] (-) TimerEvent: {}
+[45.178762] (-) TimerEvent: {}
+[45.280129] (-) TimerEvent: {}
+[45.381405] (-) TimerEvent: {}
+[45.482776] (-) TimerEvent: {}
+[45.584033] (-) TimerEvent: {}
+[45.685034] (-) TimerEvent: {}
+[45.786275] (-) TimerEvent: {}
+[45.887545] (-) TimerEvent: {}
+[45.988798] (-) TimerEvent: {}
+[46.090099] (-) TimerEvent: {}
+[46.191206] (-) TimerEvent: {}
+[46.292229] (-) TimerEvent: {}
+[46.380832] (foxglove_bridge) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/version.cpp.o\x1b[0m\n'}
+[46.392462] (-) TimerEvent: {}
+[46.493361] (-) TimerEvent: {}
+[46.594303] (-) TimerEvent: {}
+[46.695169] (-) TimerEvent: {}
+[46.796104] (-) TimerEvent: {}
+[46.897102] (-) TimerEvent: {}
+[46.998018] (-) TimerEvent: {}
+[47.099072] (-) TimerEvent: {}
+[47.200077] (-) TimerEvent: {}
+[47.300930] (-) TimerEvent: {}
+[47.401925] (-) TimerEvent: {}
+[47.502817] (-) TimerEvent: {}
+[47.603667] (-) TimerEvent: {}
+[47.704553] (-) TimerEvent: {}
+[47.805513] (-) TimerEvent: {}
+[47.906353] (-) TimerEvent: {}
+[48.007312] (-) TimerEvent: {}
+[48.108325] (-) TimerEvent: {}
+[48.209332] (-) TimerEvent: {}
+[48.310388] (-) TimerEvent: {}
+[48.411272] (-) TimerEvent: {}
+[48.512118] (-) TimerEvent: {}
+[48.613022] (-) TimerEvent: {}
+[48.713930] (-) TimerEvent: {}
+[48.814856] (-) TimerEvent: {}
+[48.915708] (-) TimerEvent: {}
+[49.016685] (-) TimerEvent: {}
+[49.117618] (-) TimerEvent: {}
+[49.218742] (-) TimerEvent: {}
+[49.319877] (-) TimerEvent: {}
+[49.421026] (-) TimerEvent: {}
+[49.521924] (-) TimerEvent: {}
+[49.622836] (-) TimerEvent: {}
+[49.724422] (-) TimerEvent: {}
+[49.826044] (-) TimerEvent: {}
+[49.927619] (-) TimerEvent: {}
+[50.029190] (-) TimerEvent: {}
+[50.130971] (-) TimerEvent: {}
+[50.232725] (-) TimerEvent: {}
+[50.334691] (-) TimerEvent: {}
+[50.436483] (-) TimerEvent: {}
+[50.538399] (-) TimerEvent: {}
+[50.640755] (-) TimerEvent: {}
+[50.742368] (-) TimerEvent: {}
+[50.843953] (-) TimerEvent: {}
+[50.945597] (-) TimerEvent: {}
+[51.047194] (-) TimerEvent: {}
+[51.148954] (-) TimerEvent: {}
+[51.250584] (-) TimerEvent: {}
+[51.351455] (-) TimerEvent: {}
+[51.452322] (-) TimerEvent: {}
+[51.553141] (-) TimerEvent: {}
+[51.653994] (-) TimerEvent: {}
+[51.754916] (-) TimerEvent: {}
+[51.856616] (-) TimerEvent: {}
+[51.958227] (-) TimerEvent: {}
+[52.059972] (-) TimerEvent: {}
+[52.161771] (-) TimerEvent: {}
+[52.263562] (-) TimerEvent: {}
+[52.365128] (-) TimerEvent: {}
+[52.466873] (-) TimerEvent: {}
+[52.568961] (-) TimerEvent: {}
+[52.670993] (-) TimerEvent: {}
+[52.772783] (-) TimerEvent: {}
+[52.874501] (-) TimerEvent: {}
+[52.976118] (-) TimerEvent: {}
+[53.077794] (-) TimerEvent: {}
+[53.179451] (-) TimerEvent: {}
+[53.281009] (-) TimerEvent: {}
+[53.382688] (-) TimerEvent: {}
+[53.484357] (-) TimerEvent: {}
+[53.586020] (-) TimerEvent: {}
+[53.687876] (-) TimerEvent: {}
+[53.789610] (-) TimerEvent: {}
+[53.891155] (-) TimerEvent: {}
+[53.992604] (-) TimerEvent: {}
+[54.094188] (-) TimerEvent: {}
+[54.195117] (-) TimerEvent: {}
+[54.296081] (-) TimerEvent: {}
+[54.396967] (-) TimerEvent: {}
+[54.497936] (-) TimerEvent: {}
+[54.598801] (-) TimerEvent: {}
+[54.700428] (-) TimerEvent: {}
+[54.802250] (-) TimerEvent: {}
+[54.903981] (-) TimerEvent: {}
+[55.005848] (-) TimerEvent: {}
+[55.107521] (-) TimerEvent: {}
+[55.208413] (-) TimerEvent: {}
+[55.309346] (-) TimerEvent: {}
+[55.410553] (-) TimerEvent: {}
+[55.511427] (-) TimerEvent: {}
+[55.612357] (-) TimerEvent: {}
+[55.714162] (-) TimerEvent: {}
+[55.815743] (-) TimerEvent: {}
+[55.917347] (-) TimerEvent: {}
+[56.018820] (-) TimerEvent: {}
+[56.120466] (-) TimerEvent: {}
+[56.222470] (-) TimerEvent: {}
+[56.324122] (-) TimerEvent: {}
+[56.425752] (-) TimerEvent: {}
+[56.527618] (-) TimerEvent: {}
+[56.629158] (-) TimerEvent: {}
+[56.730713] (-) TimerEvent: {}
+[56.832456] (-) TimerEvent: {}
+[56.933993] (-) TimerEvent: {}
+[57.035986] (-) TimerEvent: {}
+[57.138993] (-) TimerEvent: {}
+[57.241363] (-) TimerEvent: {}
+[57.343178] (-) TimerEvent: {}
+[57.444693] (-) TimerEvent: {}
+[57.546307] (-) TimerEvent: {}
+[57.648047] (-) TimerEvent: {}
+[57.749886] (-) TimerEvent: {}
+[57.851724] (-) TimerEvent: {}
+[57.953622] (-) TimerEvent: {}
+[58.055688] (-) TimerEvent: {}
+[58.157529] (-) TimerEvent: {}
+[58.259467] (-) TimerEvent: {}
+[58.361446] (-) TimerEvent: {}
+[58.463047] (-) TimerEvent: {}
+[58.564961] (-) TimerEvent: {}
+[58.666800] (-) TimerEvent: {}
+[58.768598] (-) TimerEvent: {}
+[58.870557] (-) TimerEvent: {}
+[58.972031] (-) TimerEvent: {}
+[59.073652] (-) TimerEvent: {}
+[59.175443] (-) TimerEvent: {}
+[59.276380] (-) TimerEvent: {}
+[59.377249] (-) TimerEvent: {}
+[59.478158] (-) TimerEvent: {}
+[59.579145] (-) TimerEvent: {}
+[59.680185] (-) TimerEvent: {}
+[59.781054] (-) TimerEvent: {}
+[59.881915] (-) TimerEvent: {}
+[59.982788] (-) TimerEvent: {}
+[60.084398] (-) TimerEvent: {}
+[60.186009] (-) TimerEvent: {}
+[60.293707] (-) TimerEvent: {}
+[60.395399] (-) TimerEvent: {}
+[60.497172] (-) TimerEvent: {}
+[60.599840] (-) TimerEvent: {}
+[60.702556] (-) TimerEvent: {}
+[60.804163] (-) TimerEvent: {}
+[60.905691] (-) TimerEvent: {}
+[61.007196] (-) TimerEvent: {}
+[61.108781] (-) TimerEvent: {}
+[61.210351] (-) TimerEvent: {}
+[61.311927] (-) TimerEvent: {}
+[61.413425] (-) TimerEvent: {}
+[61.514988] (-) TimerEvent: {}
+[61.616322] (-) TimerEvent: {}
+[61.717777] (-) TimerEvent: {}
+[61.819340] (-) TimerEvent: {}
+[61.920778] (-) TimerEvent: {}
+[62.022270] (-) TimerEvent: {}
+[62.123726] (-) TimerEvent: {}
+[62.225148] (-) TimerEvent: {}
+[62.326611] (-) TimerEvent: {}
+[62.428300] (-) TimerEvent: {}
+[62.529752] (-) TimerEvent: {}
+[62.633824] (-) TimerEvent: {}
+[62.735292] (-) TimerEvent: {}
+[62.836888] (-) TimerEvent: {}
+[62.938456] (-) TimerEvent: {}
+[63.040208] (-) TimerEvent: {}
+[63.141714] (-) TimerEvent: {}
+[63.243250] (-) TimerEvent: {}
+[63.344767] (-) TimerEvent: {}
+[63.446334] (-) TimerEvent: {}
+[63.547909] (-) TimerEvent: {}
+[63.649457] (-) TimerEvent: {}
+[63.751011] (-) TimerEvent: {}
+[63.852665] (-) TimerEvent: {}
+[63.954386] (-) TimerEvent: {}
+[64.055988] (-) TimerEvent: {}
+[64.157512] (-) TimerEvent: {}
+[64.259082] (-) TimerEvent: {}
+[64.360660] (-) TimerEvent: {}
+[64.462235] (-) TimerEvent: {}
+[64.563819] (-) TimerEvent: {}
+[64.665411] (-) TimerEvent: {}
+[64.767029] (-) TimerEvent: {}
+[64.868655] (-) TimerEvent: {}
+[64.970167] (-) TimerEvent: {}
+[65.071742] (-) TimerEvent: {}
+[65.173415] (-) TimerEvent: {}
+[65.277156] (-) TimerEvent: {}
+[65.388195] (-) TimerEvent: {}
+[65.491280] (-) TimerEvent: {}
+[65.594158] (-) TimerEvent: {}
+[65.696646] (-) TimerEvent: {}
+[65.798790] (-) TimerEvent: {}
+[65.900532] (-) TimerEvent: {}
+[66.003377] (-) TimerEvent: {}
+[66.104951] (-) TimerEvent: {}
+[66.167093] (foxglove_bridge) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[66.205135] (-) TimerEvent: {}
+[66.306463] (-) TimerEvent: {}
+[66.407995] (-) TimerEvent: {}
+[66.509433] (-) TimerEvent: {}
+[66.610784] (-) TimerEvent: {}
+[66.712169] (-) TimerEvent: {}
+[66.813547] (-) TimerEvent: {}
+[66.915005] (-) TimerEvent: {}
+[66.998415] (foxglove_bridge) StdoutLine: {'line': b'[ 46%] Built target gtest\n'}
+[67.015761] (-) TimerEvent: {}
+[67.117186] (-) TimerEvent: {}
+[67.218737] (-) TimerEvent: {}
+[67.319724] (-) TimerEvent: {}
+[67.420760] (-) TimerEvent: {}
+[67.521922] (-) TimerEvent: {}
+[67.623413] (-) TimerEvent: {}
+[67.724811] (-) TimerEvent: {}
+[67.826196] (-) TimerEvent: {}
+[67.927629] (-) TimerEvent: {}
+[68.029014] (-) TimerEvent: {}
+[68.130496] (-) TimerEvent: {}
+[68.231917] (-) TimerEvent: {}
+[68.333237] (-) TimerEvent: {}
+[68.434688] (-) TimerEvent: {}
+[68.536551] (-) TimerEvent: {}
+[68.637873] (-) TimerEvent: {}
+[68.739418] (-) TimerEvent: {}
+[68.841034] (-) TimerEvent: {}
+[68.942333] (-) TimerEvent: {}
+[69.043704] (-) TimerEvent: {}
+[69.145080] (-) TimerEvent: {}
+[69.246668] (-) TimerEvent: {}
+[69.348100] (-) TimerEvent: {}
+[69.449583] (-) TimerEvent: {}
+[69.551339] (-) TimerEvent: {}
+[69.652772] (-) TimerEvent: {}
+[69.754165] (-) TimerEvent: {}
+[69.855647] (-) TimerEvent: {}
+[69.957089] (-) TimerEvent: {}
+[70.058624] (-) TimerEvent: {}
+[70.160533] (-) TimerEvent: {}
+[70.262130] (-) TimerEvent: {}
+[70.363709] (-) TimerEvent: {}
+[70.476137] (-) TimerEvent: {}
+[70.577875] (-) TimerEvent: {}
+[70.678782] (-) TimerEvent: {}
+[70.779780] (-) TimerEvent: {}
+[70.881239] (-) TimerEvent: {}
+[70.983673] (-) TimerEvent: {}
+[71.086023] (-) TimerEvent: {}
+[71.195345] (-) TimerEvent: {}
+[71.297666] (-) TimerEvent: {}
+[71.400431] (-) TimerEvent: {}
+[71.502262] (-) TimerEvent: {}
+[71.604508] (-) TimerEvent: {}
+[71.714621] (-) TimerEvent: {}
+[71.819698] (-) TimerEvent: {}
+[71.921114] (-) TimerEvent: {}
+[72.022025] (-) TimerEvent: {}
+[72.122900] (-) TimerEvent: {}
+[72.224507] (-) TimerEvent: {}
+[72.325438] (-) TimerEvent: {}
+[72.426401] (-) TimerEvent: {}
+[72.527365] (-) TimerEvent: {}
+[72.629076] (-) TimerEvent: {}
+[72.730883] (-) TimerEvent: {}
+[72.832217] (-) TimerEvent: {}
+[72.933462] (-) TimerEvent: {}
+[73.034924] (-) TimerEvent: {}
+[73.137002] (-) TimerEvent: {}
+[73.239186] (-) TimerEvent: {}
+[73.340864] (-) TimerEvent: {}
+[73.442318] (-) TimerEvent: {}
+[73.543729] (-) TimerEvent: {}
+[73.645073] (-) TimerEvent: {}
+[73.746446] (-) TimerEvent: {}
+[73.847858] (-) TimerEvent: {}
+[73.949184] (-) TimerEvent: {}
+[74.050482] (-) TimerEvent: {}
+[74.151867] (-) TimerEvent: {}
+[74.253226] (-) TimerEvent: {}
+[74.354612] (-) TimerEvent: {}
+[74.456029] (-) TimerEvent: {}
+[74.557515] (-) TimerEvent: {}
+[74.658883] (-) TimerEvent: {}
+[74.760278] (-) TimerEvent: {}
+[74.861669] (-) TimerEvent: {}
+[74.963078] (-) TimerEvent: {}
+[75.064509] (-) TimerEvent: {}
+[75.165945] (-) TimerEvent: {}
+[75.267372] (-) TimerEvent: {}
+[75.368762] (-) TimerEvent: {}
+[75.476102] (-) TimerEvent: {}
+[75.577510] (-) TimerEvent: {}
+[75.678911] (-) TimerEvent: {}
+[75.780523] (-) TimerEvent: {}
+[75.881886] (-) TimerEvent: {}
+[75.983334] (-) TimerEvent: {}
+[76.092947] (-) TimerEvent: {}
+[76.194542] (-) TimerEvent: {}
+[76.296603] (-) TimerEvent: {}
+[76.397470] (-) TimerEvent: {}
+[76.498864] (-) TimerEvent: {}
+[76.600261] (-) TimerEvent: {}
+[76.701640] (-) TimerEvent: {}
+[76.803125] (-) TimerEvent: {}
+[76.904520] (-) TimerEvent: {}
+[77.005996] (-) TimerEvent: {}
+[77.107391] (-) TimerEvent: {}
+[77.208854] (-) TimerEvent: {}
+[77.310283] (-) TimerEvent: {}
+[77.411747] (-) TimerEvent: {}
+[77.513163] (-) TimerEvent: {}
+[77.614617] (-) TimerEvent: {}
+[77.716130] (-) TimerEvent: {}
+[77.817007] (-) TimerEvent: {}
+[77.918733] (-) TimerEvent: {}
+[78.019989] (-) TimerEvent: {}
+[78.120953] (-) TimerEvent: {}
+[78.222049] (-) TimerEvent: {}
+[78.322970] (-) TimerEvent: {}
+[78.424082] (-) TimerEvent: {}
+[78.525061] (-) TimerEvent: {}
+[78.626020] (-) TimerEvent: {}
+[78.726930] (-) TimerEvent: {}
+[78.827918] (-) TimerEvent: {}
+[78.928838] (-) TimerEvent: {}
+[79.029779] (-) TimerEvent: {}
+[79.130700] (-) TimerEvent: {}
+[79.231598] (-) TimerEvent: {}
+[79.332519] (-) TimerEvent: {}
+[79.433404] (-) TimerEvent: {}
+[79.534349] (-) TimerEvent: {}
+[79.635375] (-) TimerEvent: {}
+[79.736294] (-) TimerEvent: {}
+[79.837263] (-) TimerEvent: {}
+[79.938076] (-) TimerEvent: {}
+[80.039077] (-) TimerEvent: {}
+[80.140019] (-) TimerEvent: {}
+[80.240920] (-) TimerEvent: {}
+[80.341837] (-) TimerEvent: {}
+[80.457596] (-) TimerEvent: {}
+[80.565366] (-) TimerEvent: {}
+[80.666252] (-) TimerEvent: {}
+[80.767171] (-) TimerEvent: {}
+[80.868141] (-) TimerEvent: {}
+[80.969178] (-) TimerEvent: {}
+[81.070928] (-) TimerEvent: {}
+[81.171838] (-) TimerEvent: {}
+[81.273207] (-) TimerEvent: {}
+[81.374652] (-) TimerEvent: {}
+[81.476088] (-) TimerEvent: {}
+[81.577561] (-) TimerEvent: {}
+[81.679004] (-) TimerEvent: {}
+[81.780455] (-) TimerEvent: {}
+[81.881874] (-) TimerEvent: {}
+[81.982719] (-) TimerEvent: {}
+[82.083643] (-) TimerEvent: {}
+[82.184538] (-) TimerEvent: {}
+[82.285975] (-) TimerEvent: {}
+[82.387466] (-) TimerEvent: {}
+[82.489678] (-) TimerEvent: {}
+[82.591101] (-) TimerEvent: {}
+[82.692640] (-) TimerEvent: {}
+[82.794102] (-) TimerEvent: {}
+[82.895566] (-) TimerEvent: {}
+[82.996398] (-) TimerEvent: {}
+[83.097284] (-) TimerEvent: {}
+[83.198739] (-) TimerEvent: {}
+[83.300176] (-) TimerEvent: {}
+[83.401684] (-) TimerEvent: {}
+[83.503104] (-) TimerEvent: {}
+[83.604616] (-) TimerEvent: {}
+[83.706139] (-) TimerEvent: {}
+[83.807572] (-) TimerEvent: {}
+[83.908417] (-) TimerEvent: {}
+[84.009250] (-) TimerEvent: {}
+[84.110205] (-) TimerEvent: {}
+[84.211203] (-) TimerEvent: {}
+[84.312145] (-) TimerEvent: {}
+[84.413031] (-) TimerEvent: {}
+[84.515460] (-) TimerEvent: {}
+[84.616454] (-) TimerEvent: {}
+[84.717229] (-) TimerEvent: {}
+[84.818143] (-) TimerEvent: {}
+[84.919041] (-) TimerEvent: {}
+[85.020135] (-) TimerEvent: {}
+[85.121037] (-) TimerEvent: {}
+[85.221908] (-) TimerEvent: {}
+[85.322844] (-) TimerEvent: {}
+[85.423764] (-) TimerEvent: {}
+[85.524662] (-) TimerEvent: {}
+[85.632060] (-) TimerEvent: {}
+[85.733005] (-) TimerEvent: {}
+[85.834034] (-) TimerEvent: {}
+[85.935015] (-) TimerEvent: {}
+[86.035934] (-) TimerEvent: {}
+[86.136814] (-) TimerEvent: {}
+[86.237778] (-) TimerEvent: {}
+[86.338775] (-) TimerEvent: {}
+[86.440787] (-) TimerEvent: {}
+[86.542248] (-) TimerEvent: {}
+[86.643935] (-) TimerEvent: {}
+[86.745701] (-) TimerEvent: {}
+[86.847390] (-) TimerEvent: {}
+[86.948875] (-) TimerEvent: {}
+[87.049779] (-) TimerEvent: {}
+[87.150636] (-) TimerEvent: {}
+[87.252232] (-) TimerEvent: {}
+[87.353685] (-) TimerEvent: {}
+[87.455101] (-) TimerEvent: {}
+[87.556524] (-) TimerEvent: {}
+[87.657904] (-) TimerEvent: {}
+[87.759327] (-) TimerEvent: {}
+[87.860611] (-) TimerEvent: {}
+[87.962046] (-) TimerEvent: {}
+[88.063507] (-) TimerEvent: {}
+[88.164925] (-) TimerEvent: {}
+[88.266423] (-) TimerEvent: {}
+[88.367833] (-) TimerEvent: {}
+[88.469279] (-) TimerEvent: {}
+[88.570731] (-) TimerEvent: {}
+[88.672232] (-) TimerEvent: {}
+[88.773714] (-) TimerEvent: {}
+[88.875172] (-) TimerEvent: {}
+[88.976717] (-) TimerEvent: {}
+[89.077827] (-) TimerEvent: {}
+[89.179420] (-) TimerEvent: {}
+[89.280339] (-) TimerEvent: {}
+[89.381184] (-) TimerEvent: {}
+[89.482843] (-) TimerEvent: {}
+[89.584303] (-) TimerEvent: {}
+[89.685847] (-) TimerEvent: {}
+[89.787252] (-) TimerEvent: {}
+[89.888599] (-) TimerEvent: {}
+[89.990045] (-) TimerEvent: {}
+[90.091582] (-) TimerEvent: {}
+[90.192987] (-) TimerEvent: {}
+[90.294421] (-) TimerEvent: {}
+[90.395798] (-) TimerEvent: {}
+[90.497194] (-) TimerEvent: {}
+[90.598661] (-) TimerEvent: {}
+[90.700058] (-) TimerEvent: {}
+[90.801448] (-) TimerEvent: {}
+[90.902859] (-) TimerEvent: {}
+[91.004323] (-) TimerEvent: {}
+[91.105734] (-) TimerEvent: {}
+[91.207121] (-) TimerEvent: {}
+[91.308447] (-) TimerEvent: {}
+[91.409874] (-) TimerEvent: {}
+[91.511281] (-) TimerEvent: {}
+[91.612666] (-) TimerEvent: {}
+[91.714213] (-) TimerEvent: {}
+[91.815595] (-) TimerEvent: {}
+[91.917096] (-) TimerEvent: {}
+[92.018598] (-) TimerEvent: {}
+[92.120052] (-) TimerEvent: {}
+[92.221534] (-) TimerEvent: {}
+[92.323000] (-) TimerEvent: {}
+[92.424433] (-) TimerEvent: {}
+[92.525786] (-) TimerEvent: {}
+[92.627302] (-) TimerEvent: {}
+[92.728720] (-) TimerEvent: {}
+[92.830149] (-) TimerEvent: {}
+[92.935443] (-) TimerEvent: {}
+[93.037031] (-) TimerEvent: {}
+[93.137904] (-) TimerEvent: {}
+[93.239311] (-) TimerEvent: {}
+[93.340794] (-) TimerEvent: {}
+[93.442261] (-) TimerEvent: {}
+[93.543695] (-) TimerEvent: {}
+[93.645184] (-) TimerEvent: {}
+[93.746720] (-) TimerEvent: {}
+[93.848282] (-) TimerEvent: {}
+[93.949751] (-) TimerEvent: {}
+[94.051298] (-) TimerEvent: {}
+[94.152725] (-) TimerEvent: {}
+[94.254056] (-) TimerEvent: {}
+[94.355527] (-) TimerEvent: {}
+[94.456927] (-) TimerEvent: {}
+[94.558274] (-) TimerEvent: {}
+[94.659609] (-) TimerEvent: {}
+[94.760952] (-) TimerEvent: {}
+[94.862613] (-) TimerEvent: {}
+[94.964017] (-) TimerEvent: {}
+[95.065383] (-) TimerEvent: {}
+[95.166822] (-) TimerEvent: {}
+[95.268224] (-) TimerEvent: {}
+[95.369882] (-) TimerEvent: {}
+[95.471365] (-) TimerEvent: {}
+[95.572718] (-) TimerEvent: {}
+[95.673638] (-) TimerEvent: {}
+[95.775196] (-) TimerEvent: {}
+[95.876569] (-) TimerEvent: {}
+[95.978092] (-) TimerEvent: {}
+[96.079537] (-) TimerEvent: {}
+[96.180963] (-) TimerEvent: {}
+[96.282586] (-) TimerEvent: {}
+[96.384117] (-) TimerEvent: {}
+[96.485500] (-) TimerEvent: {}
+[96.586830] (-) TimerEvent: {}
+[96.688205] (-) TimerEvent: {}
+[96.789605] (-) TimerEvent: {}
+[96.890949] (-) TimerEvent: {}
+[96.992505] (-) TimerEvent: {}
+[97.093968] (-) TimerEvent: {}
+[97.195475] (-) TimerEvent: {}
+[97.297382] (-) TimerEvent: {}
+[97.398218] (-) TimerEvent: {}
+[97.499723] (-) TimerEvent: {}
+[97.601106] (-) TimerEvent: {}
+[97.702452] (-) TimerEvent: {}
+[97.803860] (-) TimerEvent: {}
+[97.905271] (-) TimerEvent: {}
+[98.006653] (-) TimerEvent: {}
+[98.108210] (-) TimerEvent: {}
+[98.209649] (-) TimerEvent: {}
+[98.311085] (-) TimerEvent: {}
+[98.412538] (-) TimerEvent: {}
+[98.514155] (-) TimerEvent: {}
+[98.616071] (-) TimerEvent: {}
+[98.718325] (-) TimerEvent: {}
+[98.820140] (-) TimerEvent: {}
+[98.921834] (-) TimerEvent: {}
+[99.023778] (-) TimerEvent: {}
+[99.125160] (-) TimerEvent: {}
+[99.226535] (-) TimerEvent: {}
+[99.327920] (-) TimerEvent: {}
+[99.429376] (-) TimerEvent: {}
+[99.530248] (-) TimerEvent: {}
+[99.631622] (-) TimerEvent: {}
+[99.732933] (-) TimerEvent: {}
+[99.834350] (-) TimerEvent: {}
+[99.935907] (-) TimerEvent: {}
+[100.037244] (-) TimerEvent: {}
+[100.138787] (-) TimerEvent: {}
+[100.240355] (-) TimerEvent: {}
+[100.341826] (-) TimerEvent: {}
+[100.443209] (-) TimerEvent: {}
+[100.544573] (-) TimerEvent: {}
+[100.645997] (-) TimerEvent: {}
+[100.747400] (-) TimerEvent: {}
+[100.848790] (-) TimerEvent: {}
+[100.950177] (-) TimerEvent: {}
+[101.051657] (-) TimerEvent: {}
+[101.152473] (-) TimerEvent: {}
+[101.253852] (-) TimerEvent: {}
+[101.355340] (-) TimerEvent: {}
+[101.456725] (-) TimerEvent: {}
+[101.558136] (-) TimerEvent: {}
+[101.659509] (-) TimerEvent: {}
+[101.760838] (-) TimerEvent: {}
+[101.862314] (-) TimerEvent: {}
+[101.963734] (-) TimerEvent: {}
+[102.065118] (-) TimerEvent: {}
+[102.166487] (-) TimerEvent: {}
+[102.267970] (-) TimerEvent: {}
+[102.369437] (-) TimerEvent: {}
+[102.470843] (-) TimerEvent: {}
+[102.572118] (-) TimerEvent: {}
+[102.673373] (-) TimerEvent: {}
+[102.774750] (-) TimerEvent: {}
+[102.876147] (-) TimerEvent: {}
+[102.977664] (-) TimerEvent: {}
+[103.078945] (-) TimerEvent: {}
+[103.180359] (-) TimerEvent: {}
+[103.281993] (-) TimerEvent: {}
+[103.383426] (-) TimerEvent: {}
+[103.485002] (-) TimerEvent: {}
+[103.586428] (-) TimerEvent: {}
+[103.687788] (-) TimerEvent: {}
+[103.789090] (-) TimerEvent: {}
+[103.890558] (-) TimerEvent: {}
+[103.992360] (-) TimerEvent: {}
+[104.093986] (-) TimerEvent: {}
+[104.195263] (-) TimerEvent: {}
+[104.296503] (-) TimerEvent: {}
+[104.398098] (-) TimerEvent: {}
+[104.499401] (-) TimerEvent: {}
+[104.600783] (-) TimerEvent: {}
+[104.702122] (-) TimerEvent: {}
+[104.803396] (-) TimerEvent: {}
+[104.904764] (-) TimerEvent: {}
+[105.006885] (-) TimerEvent: {}
+[105.108747] (-) TimerEvent: {}
+[105.213356] (-) TimerEvent: {}
+[105.314644] (-) TimerEvent: {}
+[105.416168] (-) TimerEvent: {}
+[105.517470] (-) TimerEvent: {}
+[105.618823] (-) TimerEvent: {}
+[105.720173] (-) TimerEvent: {}
+[105.821695] (-) TimerEvent: {}
+[105.923134] (-) TimerEvent: {}
+[106.024578] (-) TimerEvent: {}
+[106.126044] (-) TimerEvent: {}
+[106.227839] (-) TimerEvent: {}
+[106.329237] (-) TimerEvent: {}
+[106.430610] (-) TimerEvent: {}
+[106.532151] (-) TimerEvent: {}
+[106.633650] (-) TimerEvent: {}
+[106.734999] (-) TimerEvent: {}
+[106.836480] (-) TimerEvent: {}
+[106.937862] (-) TimerEvent: {}
+[107.039371] (-) TimerEvent: {}
+[107.140848] (-) TimerEvent: {}
+[107.242367] (-) TimerEvent: {}
+[107.343985] (-) TimerEvent: {}
+[107.445410] (-) TimerEvent: {}
+[107.546805] (-) TimerEvent: {}
+[107.648228] (-) TimerEvent: {}
+[107.749841] (-) TimerEvent: {}
+[107.851193] (-) TimerEvent: {}
+[107.952780] (-) TimerEvent: {}
+[108.054313] (-) TimerEvent: {}
+[108.155774] (-) TimerEvent: {}
+[108.257178] (-) TimerEvent: {}
+[108.358878] (-) TimerEvent: {}
+[108.460214] (-) TimerEvent: {}
+[108.561601] (-) TimerEvent: {}
+[108.662957] (-) TimerEvent: {}
+[108.764355] (-) TimerEvent: {}
+[108.865829] (-) TimerEvent: {}
+[108.967356] (-) TimerEvent: {}
+[109.068864] (-) TimerEvent: {}
+[109.170237] (-) TimerEvent: {}
+[109.271856] (-) TimerEvent: {}
+[109.373272] (-) TimerEvent: {}
+[109.474600] (-) TimerEvent: {}
+[109.576062] (-) TimerEvent: {}
+[109.677506] (-) TimerEvent: {}
+[109.778277] (-) TimerEvent: {}
+[109.879096] (-) TimerEvent: {}
+[109.980095] (-) TimerEvent: {}
+[110.081005] (-) TimerEvent: {}
+[110.181954] (-) TimerEvent: {}
+[110.283038] (-) TimerEvent: {}
+[110.384330] (-) TimerEvent: {}
+[110.485148] (-) TimerEvent: {}
+[110.586058] (-) TimerEvent: {}
+[110.687634] (-) TimerEvent: {}
+[110.789085] (-) TimerEvent: {}
+[110.890536] (-) TimerEvent: {}
+[110.992053] (-) TimerEvent: {}
+[111.093399] (-) TimerEvent: {}
+[111.194946] (-) TimerEvent: {}
+[111.296338] (-) TimerEvent: {}
+[111.397705] (-) TimerEvent: {}
+[111.499138] (-) TimerEvent: {}
+[111.600748] (-) TimerEvent: {}
+[111.702257] (-) TimerEvent: {}
+[111.803566] (-) TimerEvent: {}
+[111.905013] (-) TimerEvent: {}
+[112.006621] (-) TimerEvent: {}
+[112.108154] (-) TimerEvent: {}
+[112.209799] (-) TimerEvent: {}
+[112.311167] (-) TimerEvent: {}
+[112.412622] (-) TimerEvent: {}
+[112.514053] (-) TimerEvent: {}
+[112.615709] (-) TimerEvent: {}
+[112.717223] (-) TimerEvent: {}
+[112.818646] (-) TimerEvent: {}
+[112.920034] (-) TimerEvent: {}
+[113.023846] (-) TimerEvent: {}
+[113.125222] (-) TimerEvent: {}
+[113.226653] (-) TimerEvent: {}
+[113.328152] (-) TimerEvent: {}
+[113.429460] (-) TimerEvent: {}
+[113.530915] (-) TimerEvent: {}
+[113.632369] (-) TimerEvent: {}
+[113.734032] (-) TimerEvent: {}
+[113.835440] (-) TimerEvent: {}
+[113.936832] (-) TimerEvent: {}
+[114.038077] (-) TimerEvent: {}
+[114.139633] (-) TimerEvent: {}
+[114.241247] (-) TimerEvent: {}
+[114.343009] (-) TimerEvent: {}
+[114.444479] (-) TimerEvent: {}
+[114.545843] (-) TimerEvent: {}
+[114.647159] (-) TimerEvent: {}
+[114.748598] (-) TimerEvent: {}
+[114.850083] (-) TimerEvent: {}
+[114.951554] (-) TimerEvent: {}
+[115.053221] (-) TimerEvent: {}
+[115.155088] (-) TimerEvent: {}
+[115.256453] (-) TimerEvent: {}
+[115.358003] (-) TimerEvent: {}
+[115.459531] (-) TimerEvent: {}
+[115.561127] (-) TimerEvent: {}
+[115.663029] (-) TimerEvent: {}
+[115.765039] (-) TimerEvent: {}
+[115.870831] (-) TimerEvent: {}
+[115.972597] (-) TimerEvent: {}
+[116.074440] (-) TimerEvent: {}
+[116.176213] (-) TimerEvent: {}
+[116.278306] (-) TimerEvent: {}
+[116.380410] (-) TimerEvent: {}
+[116.482499] (-) TimerEvent: {}
+[116.584318] (-) TimerEvent: {}
+[116.686517] (-) TimerEvent: {}
+[116.787884] (-) TimerEvent: {}
+[116.889660] (-) TimerEvent: {}
+[116.991029] (-) TimerEvent: {}
+[117.092546] (-) TimerEvent: {}
+[117.194061] (-) TimerEvent: {}
+[117.295596] (-) TimerEvent: {}
+[117.397022] (-) TimerEvent: {}
+[117.498586] (-) TimerEvent: {}
+[117.600918] (-) TimerEvent: {}
+[117.701980] (-) TimerEvent: {}
+[117.802875] (-) TimerEvent: {}
+[117.904394] (-) TimerEvent: {}
+[118.005902] (-) TimerEvent: {}
+[118.107385] (-) TimerEvent: {}
+[118.209120] (-) TimerEvent: {}
+[118.310462] (-) TimerEvent: {}
+[118.412068] (-) TimerEvent: {}
+[118.513614] (-) TimerEvent: {}
+[118.615098] (-) TimerEvent: {}
+[118.716512] (-) TimerEvent: {}
+[118.818116] (-) TimerEvent: {}
+[118.919436] (-) TimerEvent: {}
+[119.020765] (-) TimerEvent: {}
+[119.122485] (-) TimerEvent: {}
+[119.223876] (-) TimerEvent: {}
+[119.325226] (-) TimerEvent: {}
+[119.426585] (-) TimerEvent: {}
+[119.527988] (-) TimerEvent: {}
+[119.629593] (-) TimerEvent: {}
+[119.730991] (-) TimerEvent: {}
+[119.832677] (-) TimerEvent: {}
+[119.934051] (-) TimerEvent: {}
+[120.035420] (-) TimerEvent: {}
+[120.136958] (-) TimerEvent: {}
+[120.238516] (-) TimerEvent: {}
+[120.340034] (-) TimerEvent: {}
+[120.441493] (-) TimerEvent: {}
+[120.543538] (-) TimerEvent: {}
+[120.645045] (-) TimerEvent: {}
+[120.746564] (-) TimerEvent: {}
+[120.847882] (-) TimerEvent: {}
+[120.949763] (-) TimerEvent: {}
+[121.051166] (-) TimerEvent: {}
+[121.152785] (-) TimerEvent: {}
+[121.254861] (-) TimerEvent: {}
+[121.356730] (-) TimerEvent: {}
+[121.458278] (-) TimerEvent: {}
+[121.560060] (-) TimerEvent: {}
+[121.661624] (-) TimerEvent: {}
+[121.762586] (-) TimerEvent: {}
+[121.863429] (-) TimerEvent: {}
+[121.964853] (-) TimerEvent: {}
+[122.066791] (-) TimerEvent: {}
+[122.168096] (-) TimerEvent: {}
+[122.269672] (-) TimerEvent: {}
+[122.371384] (-) TimerEvent: {}
+[122.473084] (-) TimerEvent: {}
+[122.574759] (-) TimerEvent: {}
+[122.676359] (-) TimerEvent: {}
+[122.777606] (-) TimerEvent: {}
+[122.879167] (-) TimerEvent: {}
+[122.980826] (-) TimerEvent: {}
+[123.081677] (-) TimerEvent: {}
+[123.182717] (-) TimerEvent: {}
+[123.284179] (-) TimerEvent: {}
+[123.385505] (-) TimerEvent: {}
+[123.486922] (-) TimerEvent: {}
+[123.588570] (-) TimerEvent: {}
+[123.690593] (-) TimerEvent: {}
+[123.791978] (-) TimerEvent: {}
+[123.893330] (-) TimerEvent: {}
+[123.994802] (-) TimerEvent: {}
+[124.096157] (-) TimerEvent: {}
+[124.197692] (-) TimerEvent: {}
+[124.299336] (-) TimerEvent: {}
+[124.401301] (-) TimerEvent: {}
+[124.502733] (-) TimerEvent: {}
+[124.604340] (-) TimerEvent: {}
+[124.706285] (-) TimerEvent: {}
+[124.807814] (-) TimerEvent: {}
+[124.909339] (-) TimerEvent: {}
+[125.011075] (-) TimerEvent: {}
+[125.112845] (-) TimerEvent: {}
+[125.214138] (-) TimerEvent: {}
+[125.315641] (-) TimerEvent: {}
+[125.417042] (-) TimerEvent: {}
+[125.518626] (-) TimerEvent: {}
+[125.620190] (-) TimerEvent: {}
+[125.721118] (-) TimerEvent: {}
+[125.822009] (-) TimerEvent: {}
+[125.929297] (-) TimerEvent: {}
+[126.030726] (-) TimerEvent: {}
+[126.132399] (-) TimerEvent: {}
+[126.233720] (-) TimerEvent: {}
+[126.335980] (-) TimerEvent: {}
+[126.437453] (-) TimerEvent: {}
+[126.539053] (-) TimerEvent: {}
+[126.640462] (-) TimerEvent: {}
+[126.741782] (-) TimerEvent: {}
+[126.843165] (-) TimerEvent: {}
+[126.944803] (-) TimerEvent: {}
+[127.046229] (-) TimerEvent: {}
+[127.147732] (-) TimerEvent: {}
+[127.248538] (-) TimerEvent: {}
+[127.349921] (-) TimerEvent: {}
+[127.451388] (-) TimerEvent: {}
+[127.552945] (-) TimerEvent: {}
+[127.654500] (-) TimerEvent: {}
+[127.756220] (-) TimerEvent: {}
+[127.857618] (-) TimerEvent: {}
+[127.959206] (-) TimerEvent: {}
+[128.060781] (-) TimerEvent: {}
+[128.162225] (-) TimerEvent: {}
+[128.263524] (-) TimerEvent: {}
+[128.364895] (-) TimerEvent: {}
+[128.466784] (-) TimerEvent: {}
+[128.568000] (-) TimerEvent: {}
+[128.668786] (-) TimerEvent: {}
+[128.769700] (-) TimerEvent: {}
+[128.870608] (-) TimerEvent: {}
+[128.971647] (-) TimerEvent: {}
+[129.072599] (-) TimerEvent: {}
+[129.173473] (-) TimerEvent: {}
+[129.274470] (-) TimerEvent: {}
+[129.375502] (-) TimerEvent: {}
+[129.476757] (-) TimerEvent: {}
+[129.578089] (-) TimerEvent: {}
+[129.679166] (-) TimerEvent: {}
+[129.780145] (-) TimerEvent: {}
+[129.881172] (-) TimerEvent: {}
+[129.982196] (-) TimerEvent: {}
+[130.083418] (-) TimerEvent: {}
+[130.184326] (-) TimerEvent: {}
+[130.285268] (-) TimerEvent: {}
+[130.386181] (-) TimerEvent: {}
+[130.487155] (-) TimerEvent: {}
+[130.588289] (-) TimerEvent: {}
+[130.689086] (-) TimerEvent: {}
+[130.790066] (-) TimerEvent: {}
+[130.891002] (-) TimerEvent: {}
+[130.993759] (-) TimerEvent: {}
+[131.094655] (-) TimerEvent: {}
+[131.195714] (-) TimerEvent: {}
+[131.297156] (-) TimerEvent: {}
+[131.398346] (-) TimerEvent: {}
+[131.499514] (-) TimerEvent: {}
+[131.600596] (-) TimerEvent: {}
+[131.701421] (-) TimerEvent: {}
+[131.802208] (-) TimerEvent: {}
+[131.903069] (-) TimerEvent: {}
+[132.004043] (-) TimerEvent: {}
+[132.105083] (-) TimerEvent: {}
+[132.205875] (-) TimerEvent: {}
+[132.306657] (-) TimerEvent: {}
+[132.407457] (-) TimerEvent: {}
+[132.508282] (-) TimerEvent: {}
+[132.609167] (-) TimerEvent: {}
+[132.709956] (-) TimerEvent: {}
+[132.810826] (-) TimerEvent: {}
+[132.911696] (-) TimerEvent: {}
+[133.012600] (-) TimerEvent: {}
+[133.113412] (-) TimerEvent: {}
+[133.214278] (-) TimerEvent: {}
+[133.315105] (-) TimerEvent: {}
+[133.416123] (-) TimerEvent: {}
+[133.516966] (-) TimerEvent: {}
+[133.617845] (-) TimerEvent: {}
+[133.718726] (-) TimerEvent: {}
+[133.819627] (-) TimerEvent: {}
+[133.920460] (-) TimerEvent: {}
+[134.021233] (-) TimerEvent: {}
+[134.121994] (-) TimerEvent: {}
+[134.222806] (-) TimerEvent: {}
+[134.323783] (-) TimerEvent: {}
+[134.424614] (-) TimerEvent: {}
+[134.525473] (-) TimerEvent: {}
+[134.626508] (-) TimerEvent: {}
+[134.727365] (-) TimerEvent: {}
+[134.828233] (-) TimerEvent: {}
+[134.929090] (-) TimerEvent: {}
+[135.029970] (-) TimerEvent: {}
+[135.130965] (-) TimerEvent: {}
+[135.231861] (-) TimerEvent: {}
+[135.332832] (-) TimerEvent: {}
+[135.433626] (-) TimerEvent: {}
+[135.534681] (-) TimerEvent: {}
+[135.635649] (-) TimerEvent: {}
+[135.736502] (-) TimerEvent: {}
+[135.837422] (-) TimerEvent: {}
+[135.938301] (-) TimerEvent: {}
+[136.045034] (-) TimerEvent: {}
+[136.145949] (-) TimerEvent: {}
+[136.246712] (-) TimerEvent: {}
+[136.347661] (-) TimerEvent: {}
+[136.448671] (-) TimerEvent: {}
+[136.549551] (-) TimerEvent: {}
+[136.650497] (-) TimerEvent: {}
+[136.751432] (-) TimerEvent: {}
+[136.852240] (-) TimerEvent: {}
+[136.953226] (-) TimerEvent: {}
+[137.054031] (-) TimerEvent: {}
+[137.154846] (-) TimerEvent: {}
+[137.255739] (-) TimerEvent: {}
+[137.356513] (-) TimerEvent: {}
+[137.457457] (-) TimerEvent: {}
+[137.535925] (foxglove_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:132: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o] Interrupt\n'}
+[137.543670] (foxglove_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:146: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o] Interrupt\n'}
+[137.546542] (foxglove_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/foxglove_bridge_base.dir/all] Interrupt\n'}
+[137.553824] (foxglove_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[137.557705] (-) TimerEvent: {}
+[137.659374] (-) TimerEvent: {}
+[137.760358] (-) TimerEvent: {}
+[137.861726] (-) TimerEvent: {}
+[137.898479] (foxglove_bridge) JobEnded: {'identifier': 'foxglove_bridge', 'rc': 'SIGINT'}
+[137.914496] (micro_ros_agent) JobSkipped: {'identifier': 'micro_ros_agent'}
+[137.915407] (-) EventReactorShutdown: {}

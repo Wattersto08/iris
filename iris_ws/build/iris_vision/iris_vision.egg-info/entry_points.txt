@@ -1,4 +1,4 @@
 [console_scripts]
-listener = iris_vision.subscriber_member_function:main
+DSLR_handler = iris_vision.subscriber_member_function:main
 talker = iris_vision.publisher_member_function:main
 

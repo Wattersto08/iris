@@ -4,3 +4,6 @@ source;share/iris_vision/hook/pythonpath.sh
 source;share/iris_vision/hook/ament_prefix_path.ps1
 source;share/iris_vision/hook/ament_prefix_path.dsv
 source;share/iris_vision/hook/ament_prefix_path.sh
+source;../../build/iris_vision/share/iris_vision/hook/pythonpath_develop.ps1
+source;../../build/iris_vision/share/iris_vision/hook/pythonpath_develop.dsv
+source;../../build/iris_vision/share/iris_vision/hook/pythonpath_develop.sh

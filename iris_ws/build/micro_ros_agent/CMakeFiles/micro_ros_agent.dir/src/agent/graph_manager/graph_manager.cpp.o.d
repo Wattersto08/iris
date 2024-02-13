@@ -267,6 +267,7 @@ CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedVector.hpp \
  /opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAttributes.h \
+ /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/BuiltinTransports.hpp \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/PortParameters.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportInterface.h \
@@ -305,6 +306,7 @@ CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/WriterAttributes.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/EndpointAttributes.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/ReaderAttributes.h \
+ /opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/BuiltinEndpoints.hpp \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/RemoteLocators.hpp \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/reader/ReaderDiscoveryInfo.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ReaderProxyData.h \
