@@ -12,6 +12,7 @@
 #error This example is only avaliable for Arduino framework with serial transport.
 #endif
 
+#define TWO_PI 6.283185307179586476925286766559
 
 // ros init 
 
@@ -38,36 +39,137 @@ unsigned int num_handles = 2 + 2;   // 2 subscriber, 2 publisher
 // pin defintiions 
 
 // general
-#define LED1 23
-#define LED2 22
-#define Pushbutton1 21
-#define Pushbutton2 20
+const byte LED1 = 23;
+const byte LED2 = 23;
 
-#define MEN 3
+const byte Xlimsw_pin = 38;
+const byte XencA_pin = 37;
+const byte XencB_pin = 36;
 
-// X axis 
-#define EncXA 37
-#define EncXB 36
-#define LimSwX 38
+const byte Ylimsw_pin = 33;
+const byte YencA_pin = 35;
+const byte YencB_pin = 34;
 
-#define M1A 4
-#define M1B 5
-#define M1PWM 6
+const byte YmotA_pin = 1;
+const byte YmotB_pin = 2;
+const byte YmotPWM_pin = 0;
 
-// Y axis 
-#define EncYA 35
-#define EncYB 34
-#define LimSwY 33
+const byte XmotA_pin = 4;
+const byte XmotB_pin = 5;
+const byte XmotPWM_pin = 6;
 
-#define M2A 2
-#define M2B 1
-#define M2PWM 0
+const byte mot_enable_pin = 3;
+
+// temporary values for Set_motor_power()
+
+int dirA;
+int dirB;
+int pwm;
+
+// Limit Switch Variable Setup 
+
+unsigned long limswX_interrupt_time = 0;
+unsigned long limswX_interrupt_time_prev = 0;
+
+unsigned long limswY_interrupt_time = 0;
+unsigned long limswY_interrupt_time_prev = 0;
+
+unsigned long limsw_debounce_time = 300;
+
+// Encoder Variable Setup
+
+long X_pos = 0;
+int X_Counts_per_rev = 2048;
+
+long Y_pos = 0;
+int Y_Counts_per_rev = 2048;
+
+// PID Variable Setup
+
+bool PID_debug = false;
+
+float X_kp = 1.5;
+float X_kd = 1.5;
+float X_ki = 0.015;
+
+long prevT = 0;
+
+float X_eprev = 0;
+float X_eintegral = 0;
+
+float Y_kp = 1.2;
+float Y_kd = 0.0;
+float Y_ki = 0.0;
+
+float Y_eprev = 0;
+float Y_eintegral = 0;
+
+int X_target = 0;
+int Y_target = 0;
+
+// Function Init 
+
+void X_limsw_interrupt();
+void X_encoder_interrupt();
+
+void Y_limsw_interrupt();
+void Y_encoder_interrupt();
+
+void Set_motor_power(bool Mselect, int pwr);
+void Disable_motor();
+
+float enc_count_to_rad(float counts_per_rev, float curr_count){
+  return ((curr_count/counts_per_rev)*TWO_PI);
+}
+
+float rad_to_enc_count(float counts_per_rev, float input_rad){
+  return int((input_rad/TWO_PI)*counts_per_rev);
+}
+
+// PID Setup 
+IntervalTimer PID_Timer;
+
+void Update_PID(){
+
+  long currT = micros();
+  float deltaT = ((float) (currT - prevT)) / ( 1.0e6 );
+  prevT = currT;
+
+  // error
+  noInterrupts();
+  int Xe = X_pos - X_target;
+  int Ye = Y_pos - Y_target;
+  interrupts();
+  
+  // derivative
+  float Xdedt = (Xe - X_eprev) / (deltaT);
+  float Ydedt = (Ye - Y_eprev) / (deltaT);
+
+  // integral
+  X_eintegral = X_eintegral + Xe * deltaT;
+  Y_eintegral = Y_eintegral + Ye * deltaT;
+
+  // control signal
+  float Xu = (X_kp * Xe) + (X_kd * Xdedt) + (X_ki * X_eintegral);
+  float Yu = (Y_kp * Ye) + (Y_kd * Ydedt) + (Y_ki * Y_eintegral);
+
+ 
+  Set_motor_power(1, floor(Xu));
+  Set_motor_power(0, floor(Yu));
+
+  // store previous error
+  X_eprev = Xe;
+  Y_eprev = Ye;
+
+}
+
+// This Variable will need to be tuned to run as fast as possible - Once PID calculation timing is worked out this can be set with some headroom. 
+int PID_time_interval = 100000; // Sets timer interval in ns for PID calculations 
+
 
 // Variable setup 
 const unsigned int timer_timeout = 100;
 
-int x_motor_pwr = 0;
-int y_motor_pwr = 0;
 
 // Error handle loop
 void error_loop() {
@@ -78,30 +180,6 @@ void error_loop() {
     digitalWrite(LED2, !digitalRead(LED2));
     delay(100);
   }
-}
-
-void set_motorX_pwr(int pwr){
-  if(pwr > 0){
-    digitalWrite(M1A,LOW);
-    digitalWrite(M1B,HIGH);
-  }
-  else{
-    digitalWrite(M1A,HIGH);
-    digitalWrite(M1B,LOW);
-  }
-  analogWrite(M1PWM,abs(pwr));
-}
-
-void set_motorY_pwr(int pwr){
-  if(pwr > 0){
-    digitalWrite(M2A,LOW);
-    digitalWrite(M2B,HIGH);
-  }
-  else{
-    digitalWrite(M2A,HIGH);
-    digitalWrite(M2B,LOW);
-  }
-  analogWrite(M2PWM,abs(pwr));
 }
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
@@ -117,17 +195,13 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
 void subscription_callbackX(const void * msgin)
 {  
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-  x_motor_pwr = msg->data;
-  set_motorX_pwr(x_motor_pwr);
-  digitalWrite(LED1, (x_motor_pwr == 0) ? LOW : HIGH);  
+  X_target = msg->data;
 }
 
 void subscription_callbackY(const void * msgin)
 {  
   const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
-  y_motor_pwr = msg->data;
-  set_motorY_pwr(y_motor_pwr);
-  digitalWrite(LED2, (msg->data == 0) ? LOW : HIGH);  
+  Y_target = msg->data;
 }
 
 
@@ -140,24 +214,24 @@ void setup() {
 
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
-  pinMode(Pushbutton1,INPUT);
-  pinMode(Pushbutton2,INPUT);
 
-  pinMode(MEN,OUTPUT);
-  pinMode(M1A,OUTPUT);
-  pinMode(M1B,OUTPUT);
-  pinMode(M1PWM,OUTPUT);
-  pinMode(M2A,OUTPUT);
-  pinMode(M2B,OUTPUT);
-  pinMode(M2PWM,OUTPUT);
+  pinMode(Xlimsw_pin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(Xlimsw_pin), X_limsw_interrupt, RISING);
 
-  pinMode(EncYA,INPUT);
-  pinMode(EncYB,INPUT);
-  pinMode(LimSwY,INPUT);
-  pinMode(EncXA,INPUT);
-  pinMode(EncXB,INPUT);
-  pinMode(LimSwX,INPUT);
+  pinMode(XencA_pin, INPUT_PULLUP);
+  pinMode(XencB_pin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(XencA_pin), X_encoder_interrupt, RISING);
+
+  pinMode(Ylimsw_pin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(Ylimsw_pin), Y_limsw_interrupt, RISING);
+
+  pinMode(YencA_pin, INPUT_PULLUP);
+  pinMode(YencB_pin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(YencA_pin), Y_encoder_interrupt, RISING);
   
+  // Initialise PID Timer
+  PID_Timer.begin(Update_PID, PID_time_interval); 
+
   delay(2000);
 
   allocator = rcl_get_default_allocator();
@@ -216,4 +290,81 @@ void setup() {
 void loop() {
   delay(100);
   RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+}
+
+void X_limsw_interrupt() {
+  limswX_interrupt_time = millis();
+  if((limswX_interrupt_time - limswX_interrupt_time_prev)>limsw_debounce_time){
+    delay(100);
+    if(digitalRead(Xlimsw_pin)== HIGH){
+      X_pos = 0;
+    }
+  }
+  limswX_interrupt_time_prev = limswX_interrupt_time;
+}
+
+void Y_limsw_interrupt() {
+  limswY_interrupt_time = millis();
+  if((limswY_interrupt_time - limswY_interrupt_time_prev)>limsw_debounce_time){
+    delay(100);
+    if(digitalRead(Ylimsw_pin)== HIGH){
+      Y_pos = 0;
+    }
+  }
+  limswY_interrupt_time_prev = limswY_interrupt_time;
+}
+
+void X_encoder_interrupt(){
+  if(digitalRead(XencB_pin) == HIGH){
+    X_pos++;
+  } else {
+    X_pos--;
+  }
+}
+
+void Y_encoder_interrupt(){
+  if(digitalRead(YencB_pin) == HIGH){
+    Y_pos++;
+  } else {
+    Y_pos--;
+  }
+}
+
+void Set_motor_power(bool Mselect, int pwr){
+/* 
+  motor pwr between -256 -> 256 
+  Mselect == TRUE  -> X axis
+  Mselect == FALSE  -> Y axis
+*/
+
+// enable motor
+  digitalWrite(mot_enable_pin,HIGH);
+
+// Select Motor
+  if(Mselect){
+    dirA = XmotA_pin;
+    dirB = XmotB_pin;
+    pwm = XmotPWM_pin;
+  }else{
+    dirA = YmotA_pin;
+    dirB = YmotB_pin;
+    pwm = YmotPWM_pin;
+  }
+
+// Set direction Pins 
+  if(pwr >= 0){
+    digitalWrite(dirA,HIGH);
+    digitalWrite(dirB,LOW);
+  }else{
+    digitalWrite(dirA,LOW);
+    digitalWrite(dirB,HIGH);
+  }
+
+// Write Power 
+  analogWrite(pwm,abs(pwr));
+}
+
+void Disable_motor(){
+  // simple Call to disable Motors 
+  digitalWrite(mot_enable_pin,LOW);
 }

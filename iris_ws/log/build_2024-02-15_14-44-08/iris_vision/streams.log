@@ -1,0 +1,24 @@
+[4.506s] Invoking command in '/home/iris/iris/iris_ws/build/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iris/iris/iris_ws/build/iris_vision/build --no-deps install_data
+[5.567s] running develop
+[5.569s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.570s]   warnings.warn(
+[5.574s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.574s]   warnings.warn(
+[6.239s] running egg_info
+[6.240s] writing iris_vision.egg-info/PKG-INFO
+[6.241s] writing dependency_links to iris_vision.egg-info/dependency_links.txt
+[6.242s] writing entry points to iris_vision.egg-info/entry_points.txt
+[6.242s] writing requirements to iris_vision.egg-info/requires.txt
+[6.243s] writing top-level names to iris_vision.egg-info/top_level.txt
+[6.251s] reading manifest file 'iris_vision.egg-info/SOURCES.txt'
+[6.255s] writing manifest file 'iris_vision.egg-info/SOURCES.txt'
+[6.261s] running build_ext
+[6.261s] Creating /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris-vision.egg-link (link to .)
+[6.265s] Installing DSLR_handler script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[6.266s] Installing FaceTracking script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[6.267s] Installing iris_joy_control script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[6.268s] Installing talker script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[6.269s] 
+[6.270s] Installed /home/iris/iris/iris_ws/build/iris_vision
+[6.271s] running install_data
+[6.403s] Invoked command in '/home/iris/iris/iris_ws/build/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iris/iris/iris_ws/build/iris_vision/build --no-deps install_data

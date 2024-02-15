@@ -20,8 +20,13 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = iris_vision.publisher_member_function:main',
-            'DSLR_handler = iris_vision.subscriber_member_function:main',
+            'talker = iris_vision.ExamplePub:main',
+            'listener = iris_vision.ExampleSub:main',            
+            'DSLR_handler = iris_vision.DSLR_handler:main',
+            'FaceTracking = iris_vision.FaceTracking:main',
+            'FaceTracking_headless = iris_vision.FaceTracking_headless:main',
+            'facetracking_motioncoltrol = iris_vision.facetracking_motioncontrol:main',
+            'iris_joy_control = iris_vision.iris_joy_control:main',
         ]
     },
 )
