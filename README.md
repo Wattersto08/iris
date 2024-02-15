@@ -39,13 +39,13 @@ Iris is a low cost Hardware solution for high quality data collection. Using a w
 
 ## Complete:
 
-- [x] Rebuild DSLR handler -  
-- [x] integrate webcam to ros2 - [x] 
-- [x] integrate DSLR to ros2 - [x] 
+- [x] Rebuild DSLR handler 
+- [x] integrate webcam to ros2 
+- [x] integrate DSLR to ros2 
 - [x] uros testing -> pub sub working adding hardware functionality to come, motors need testing 
-- [x] uros build and upload initial init tests - [x]
-- [x] build encoder functionality out - [x]
-- [x] implement PID control - [x]
+- [x] uros build and upload initial init tests 
+- [x] build encoder functionality out 
+- [x] implement PID control 
 
 # iris_ws 
 The ros2 integration element of the project, 
