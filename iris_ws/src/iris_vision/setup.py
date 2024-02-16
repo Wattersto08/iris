@@ -27,6 +27,7 @@ setup(
             'FaceTracking_headless = iris_vision.FaceTracking_headless:main',
             'facetracking_motioncoltrol = iris_vision.facetracking_motioncontrol:main',
             'iris_joy_control = iris_vision.iris_joy_control:main',
+            'Aruco_Tracking = iris_vision.Aruco_Tracking:main',
         ]
     },
 )

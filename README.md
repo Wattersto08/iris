@@ -4,6 +4,7 @@ Iris is a low cost Hardware solution for high quality data collection. Using a w
 
 ## Todo:
 
+- [ ] add aruco tracking, for easier tracking testing
 - [ ] add homing routine to the controller hardware 
 - [ ] create TF tree for the joint positions
 - [ ] update hardware interface to take radian inputs and outputs 
