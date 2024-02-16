@@ -2,7 +2,7 @@
 
 Iris is a low cost Hardware solution for high quality data collection. Using a webcam for object location and a DSLR for cropping in high resolution images. The projects long term goals are to service vineyards for grape health monitoring. 
 
-
+<img src="https://github.com/Wattersto08/iris/blob/main/CAD/Images/iRIS.png" width="400" height="400">
 
 ## ROS 
 
@@ -35,7 +35,7 @@ Plans to experiment with the google Coral board will allow for more GPU power fo
 
 To go along with the software component of the project I have developed a PCB to interface with the hardware, using a PJRC Teensy 4.1 and uROS. This allows for budget compoents to be used whilst still giving a full PID control loop and ROS integration.
 
-## todo for v1.2
+## todo for v1.1
 
 - [ ] standardise mounting holes 
 - [ ] fan output 
@@ -44,6 +44,13 @@ To go along with the software component of the project I have developed a PCB to
 - [ ] add a power control mosfet to teensy to allow the pi to control power state 
 - [ ] add general GPIO for expansion 
 - [ ] look into alternatives for connection to host, (ethernet?)
+
+## v1.0
+
+This serves as an initial protype platform:
+
+<img src="https://github.com/Wattersto08/iris/blob/main/CAD/Images/PCB_top.png" width="400" height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Wattersto08/iris/blob/main/CAD/Images/PCB_bottom.png" width="400" height="400">
+
 
 
 ## general project non critical goals:
