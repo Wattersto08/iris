@@ -1,4 +1,4 @@
-# Iris
+# iRIS
 
 Iris is a low cost Hardware solution for high quality data collection. Using a webcam for object location and a DSLR for cropping in high resolution images. The projects long term goals are to service vineyards for grape health monitoring. 
 
