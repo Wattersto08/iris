@@ -2,7 +2,15 @@
 
 Iris is a low cost Hardware solution for high quality data collection. Using a webcam for object location and a DSLR for cropping in high resolution images. The projects long term goals are to service vineyards for grape health monitoring. 
 
-## Todo:
+
+
+## ROS 
+
+Utilizing ros2 humble this allows for seamless integration into the Ralph project (a UAV platform for this module to sit on) - this will allow me to quickly connect and disconnect from the platform a single 12V supply and newtwork cable. 
+
+Plans to experiment with the google Coral board will allow for more GPU power for realtime ML. 
+
+### Todo:
 
 - [ ] add aruco tracking, for easier tracking testing
 - [ ] add homing routine to the controller hardware 
@@ -23,8 +31,22 @@ Iris is a low cost Hardware solution for high quality data collection. Using a w
         - temps 
     This will be extended to record presense of desease, leaf burning and growth. 
 
+## PCB hardware 
 
-## nice to haves:
+To go along with the software component of the project I have developed a PCB to interface with the hardware, using a PJRC Teensy 4.1 and uROS. This allows for budget compoents to be used whilst still giving a full PID control loop and ROS integration.
+
+## todo for v1.2
+
+- [ ] standardise mounting holes 
+- [ ] fan output 
+- [ ] remove one 5V4A supply 
+- [ ] replace current descrete logic voltage shifting components into a single IC
+- [ ] add a power control mosfet to teensy to allow the pi to control power state 
+- [ ] add general GPIO for expansion 
+- [ ] look into alternatives for connection to host, (ethernet?)
+
+
+## general project non critical goals:
 
 - [ ] add additional topic for hardware for mode control for example 
     *int topic*
@@ -48,5 +70,3 @@ Iris is a low cost Hardware solution for high quality data collection. Using a w
 - [x] build encoder functionality out 
 - [x] implement PID control 
 
-# iris_ws 
-The ros2 integration element of the project, 
