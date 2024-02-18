@@ -35,10 +35,9 @@ Plans to experiment with the google Coral board will allow for more GPU power fo
 
 The Bill of Materials can be found within the CAD folder, and a live view can be found at the below link: 
 
-    [Latest BOM](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ_uYW7K6271f0ErAbV8m-MITQrffNqpZBoYI7dZP_c1TlAqC8gs_LyKbfC1TP1kMLprv7x0EkyTsK/pubhtml)
+[Latest BOM]([https://www.google.com](https://docs.google.com/spreadsheets/d/1brc093db2wOhchpbwPfbKKWlJsNdvawlCEVu6vIqlME/edit?usp=sharing) "Live BOM")
 
-
-
+https://docs.google.com/spreadsheets/d/1brc093db2wOhchpbwPfbKKWlJsNdvawlCEVu6vIqlME/edit?usp=sharing
 ## PCB hardware 
 
 To go along with the software component of the project I have developed a PCB to interface with the hardware, using a PJRC Teensy 4.1 and uROS. This allows for budget compoents to be used whilst still giving a full PID control loop and ROS integration.
