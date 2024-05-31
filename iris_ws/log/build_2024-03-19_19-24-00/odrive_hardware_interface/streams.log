@@ -1,0 +1,45 @@
+[0.914s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/odrive_hardware_interface
+[3.168s] -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.172s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.504s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.508s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.720s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.814s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.961s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.004s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.031s] -- Checking for one of the modules 'libusb-1.0'
+[5.415s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.790s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.812s] -- Configured cppcheck include dirs: /home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/include
+[5.814s] -- Configured cppcheck exclude dirs and/or files: 
+[5.833s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.837s] -- Configured cpplint exclude dirs and/or files: 
+[5.838s] -- Added test 'lint_cmake' to check CMake code style
+[5.848s] -- Added test 'uncrustify' to check C / C++ code style
+[5.850s] -- Configured uncrustify additional arguments: 
+[5.854s] -- Added test 'xmllint' to check XML markup files
+[5.937s] -- Configuring done
+[6.029s] -- Generating done
+[6.038s] -- Build files have been written to: /home/iris/iris/iris_ws/build/odrive_hardware_interface
+[7.104s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/odrive_hardware_interface
+[7.106s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[7.422s] [ 25%] [32mBuilding CXX object CMakeFiles/odrive_usb.dir/src/odrive_usb.cpp.o[0m
+[13.051s] [ 50%] [32m[1mLinking CXX shared library libodrive_usb.so[0m
+[13.716s] [ 50%] Built target odrive_usb
+[13.816s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[14.236s] In file included from [01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[14.238s] [01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/system_interface.hpp: No such file or directory
+[14.239s]    19 | #include [01;31m[K"hardware_interface/system_interface.hpp"[m[K
+[14.241s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.244s] compilation terminated.
+[14.245s] gmake[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:76: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+[14.246s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+[14.247s] gmake: *** [Makefile:146: all] Error 2
+[14.372s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4

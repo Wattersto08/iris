@@ -1,0 +1,732 @@
+[4.158s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.159s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8b9410f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8be6bd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8be6bd90>>)
+[4.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/iris/iris/iris_ws'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extensions ['ignore', 'ignore_ament_install']
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extension 'ignore'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extension 'ignore_ament_install'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extensions ['colcon_pkg']
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extension 'colcon_pkg'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extensions ['colcon_meta']
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extension 'colcon_meta'
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extensions ['ros']
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_vision) by extension 'ros'
+[4.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iris_vision' with type 'ros.ament_python' and name 'iris_vision'
+[4.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[4.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[4.428s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore'
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore_ament_install'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_pkg']
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_pkg'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_meta']
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_meta'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ros']
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ros'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['cmake', 'python']
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'cmake'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['python_setup_py']
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python_setup_py'
+[4.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extension 'ignore'
+[4.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extension 'ignore_ament_install'
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extensions ['colcon_pkg']
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extension 'colcon_pkg'
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extensions ['colcon_meta']
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extension 'colcon_meta'
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extensions ['ros']
+[4.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_bringup) by extension 'ros'
+[4.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_demo_bringup' with type 'ros.ament_cmake' and name 'odrive_demo_bringup'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extension 'ignore'
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extension 'ignore_ament_install'
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extensions ['colcon_pkg']
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extension 'colcon_pkg'
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extensions ['colcon_meta']
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extension 'colcon_meta'
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extensions ['ros']
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_demo_description) by extension 'ros'
+[4.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_demo_description' with type 'ros.ament_cmake' and name 'odrive_demo_description'
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore_ament_install'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_pkg']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_pkg'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_meta']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_meta'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ros']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ros'
+[4.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_hardware_interface' with type 'ros.ament_cmake' and name 'odrive_hardware_interface'
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore_ament_install'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_pkg']
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_pkg'
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_meta']
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_meta'
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ros']
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ros'
+[4.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_ros2_control' with type 'ros.ament_cmake' and name 'odrive_ros2_control'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extensions ['ignore', 'ignore_ament_install']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extension 'ignore'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extension 'ignore_ament_install'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extensions ['colcon_pkg']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extension 'colcon_pkg'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extensions ['colcon_meta']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extension 'colcon_meta'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extensions ['ros']
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ralph6) by extension 'ros'
+[4.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ralph6' with type 'ros.ament_cmake' and name 'ralph6'
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[4.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[4.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[4.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[4.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[4.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[4.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[4.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[4.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.984s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 240 installed packages in /opt/ros/humble
+[4.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.320s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_args' from command line to 'None'
+[5.320s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_target' from command line to 'None'
+[5.320s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.320s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[5.321s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_clean_first' from command line to 'False'
+[5.321s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'cmake_force_configure' from command line to 'False'
+[5.321s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'ament_cmake_args' from command line to 'None'
+[5.321s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[5.321s] Level 5:colcon.colcon_core.verb:set package 'iris_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.321s] DEBUG:colcon.colcon_core.verb:Building package 'iris_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/iris_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/iris_vision', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/iris_vision', 'symlink_install': False, 'test_result_base': None}
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[5.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[5.382s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[5.382s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.382s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[5.441s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[5.441s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[5.441s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[5.442s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.442s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_args' from command line to 'None'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_target' from command line to 'None'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[5.503s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.503s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/odrive_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/odrive_demo_description', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_description', 'symlink_install': False, 'test_result_base': None}
+[5.562s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.563s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/odrive_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/odrive_hardware_interface', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[5.623s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_args' from command line to 'None'
+[5.623s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_target' from command line to 'None'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_clean_cache' from command line to 'False'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_clean_first' from command line to 'False'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'cmake_force_configure' from command line to 'False'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'ament_cmake_args' from command line to 'None'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'catkin_cmake_args' from command line to 'None'
+[5.624s] Level 5:colcon.colcon_core.verb:set package 'ralph6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.624s] DEBUG:colcon.colcon_core.verb:Building package 'ralph6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/ralph6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/ralph6', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/ralph6', 'symlink_install': False, 'test_result_base': None}
+[5.684s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[5.685s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[5.686s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.686s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_args' from command line to 'None'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_target' from command line to 'None'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[5.746s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[5.747s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[5.747s] Level 5:colcon.colcon_core.verb:set package 'odrive_demo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.747s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_demo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/odrive_demo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/odrive_demo_bringup', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_bringup', 'symlink_install': False, 'test_result_base': None}
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_args' from command line to 'None'
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target' from command line to 'None'
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[5.806s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[5.807s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[5.807s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[5.807s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.807s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iris/iris/iris_ws/build/odrive_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iris/iris/iris_ws/install/odrive_ros2_control', 'merge_install': False, 'path': '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[5.866s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.929s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_description' with build type 'ament_cmake'
+[5.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_description'
+[5.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface' with build type 'ament_cmake'
+[6.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface'
+[6.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.337s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/iris/iris/iris_ws/src/iris_vision' with build type 'ament_python'
+[6.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('iris_vision', 'ament_prefix_path')
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/ament_prefix_path.ps1'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/ament_prefix_path.dsv'
+[6.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/ament_prefix_path.sh'
+[6.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.605s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[6.606s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[6.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_description -- -j4 -l4
+[6.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[7.996s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/iris/iris/iris_ws/src/iris_vision'
+[8.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_description -- -j4 -l4
+[8.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[8.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_agent -- -j4 -l4
+[8.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_description
+[8.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_hardware_interface
+[8.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_demo_description)
+[8.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_description
+[8.614s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description' for CMake module files
+[8.617s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description' for CMake config files
+[8.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_demo_description', 'cmake_prefix_path')
+[8.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.ps1'
+[8.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.dsv'
+[8.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.sh'
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/bin'
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/lib/pkgconfig/odrive_demo_description.pc'
+[8.711s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/lib/python3.10/site-packages'
+[8.712s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/bin'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.ps1'
+[8.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv'
+[8.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.sh'
+[8.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.bash'
+[8.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.zsh'
+[8.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_demo_description/share/colcon-core/packages/odrive_demo_description)
+[8.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_hardware_interface)
+[8.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_hardware_interface
+[8.945s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface' for CMake module files
+[8.949s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface' for CMake config files
+[8.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'cmake_prefix_path')
+[9.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.ps1'
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.dsv'
+[9.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.sh'
+[9.044s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib'
+[9.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'ld_library_path_lib')
+[9.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.dsv'
+[9.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.sh'
+[9.125s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/bin'
+[9.126s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/pkgconfig/odrive_hardware_interface.pc'
+[9.127s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/python3.10/site-packages'
+[9.128s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/bin'
+[9.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.ps1'
+[9.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv'
+[9.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.sh'
+[9.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.bash'
+[9.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.zsh'
+[9.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/colcon-core/packages/odrive_hardware_interface)
+[9.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_agent -- -j4 -l4
+[9.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_demo_description)
+[9.436s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description' for CMake module files
+[9.440s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description' for CMake config files
+[9.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_demo_description', 'cmake_prefix_path')
+[9.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.ps1'
+[9.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.dsv'
+[9.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/hook/cmake_prefix_path.sh'
+[9.529s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/bin'
+[9.529s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/lib/pkgconfig/odrive_demo_description.pc'
+[9.530s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/lib/python3.10/site-packages'
+[9.531s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_description/bin'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.ps1'
+[9.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv'
+[9.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.sh'
+[9.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.bash'
+[9.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.zsh'
+[9.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_demo_description/share/colcon-core/packages/odrive_demo_description)
+[9.631s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_bringup' with build type 'ament_cmake'
+[9.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_bringup'
+[9.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_hardware_interface)
+[10.113s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface' for CMake module files
+[10.117s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface' for CMake config files
+[10.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'cmake_prefix_path')
+[10.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.ps1'
+[10.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.dsv'
+[10.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.sh'
+[10.195s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib'
+[10.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'ld_library_path_lib')
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.ps1'
+[10.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.dsv'
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.sh'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/bin'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/pkgconfig/odrive_hardware_interface.pc'
+[10.267s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/python3.10/site-packages'
+[10.268s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_hardware_interface/bin'
+[10.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.ps1'
+[10.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv'
+[10.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.sh'
+[10.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.bash'
+[10.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.zsh'
+[10.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_hardware_interface/share/colcon-core/packages/odrive_hardware_interface)
+[10.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/micro_ros_agent
+[10.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[10.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/micro_ros_setup'
+[10.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_bringup -- -j4 -l4
+[10.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[10.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/src/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[10.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/micro_ros_agent
+[10.721s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent' for CMake module files
+[10.725s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent' for CMake config files
+[10.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[10.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[10.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[10.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[10.821s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib'
+[10.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[10.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[10.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[10.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[10.911s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/bin'
+[10.912s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[10.913s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[10.914s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/bin'
+[10.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[11.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[11.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[11.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[11.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[11.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[11.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_setup -- -j4 -l4
+[11.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_bringup -- -j4 -l4
+[11.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_bringup
+[11.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/micro_ros_setup -- -j4 -l4
+[11.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent' for CMake module files
+[11.422s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent' for CMake config files
+[11.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[11.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[11.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[11.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[11.504s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib'
+[11.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[11.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[11.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[11.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[11.588s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/bin'
+[11.588s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[11.589s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[11.590s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_agent/bin'
+[11.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[11.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[11.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[11.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[11.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[11.682s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/ralph6' with build type 'ament_cmake'
+[11.683s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/ralph6'
+[11.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_demo_bringup)
+[11.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_bringup
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup' for CMake module files
+[12.154s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup' for CMake config files
+[12.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_demo_bringup', 'cmake_prefix_path')
+[12.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.ps1'
+[12.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.dsv'
+[12.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.sh'
+[12.236s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/bin'
+[12.236s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/lib/pkgconfig/odrive_demo_bringup.pc'
+[12.237s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/lib/python3.10/site-packages'
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/bin'
+[12.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.ps1'
+[12.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.dsv'
+[12.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.sh'
+[12.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.bash'
+[12.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.zsh'
+[12.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/colcon-core/packages/odrive_demo_bringup)
+[12.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/micro_ros_setup
+[12.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/src/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[12.505s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision' for CMake module files
+[12.513s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision' for CMake config files
+[12.526s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision/lib'
+[12.527s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision/bin'
+[12.528s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision/lib/pkgconfig/iris_vision.pc'
+[12.529s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages'
+[12.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('iris_vision', 'pythonpath')
+[12.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/pythonpath.ps1'
+[12.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/pythonpath.dsv'
+[12.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/hook/pythonpath.sh'
+[12.626s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/iris_vision/bin'
+[12.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iris_vision)
+[12.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/package.ps1'
+[12.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/package.dsv'
+[12.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/package.sh'
+[12.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/package.bash'
+[12.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/iris_vision/share/iris_vision/package.zsh'
+[12.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/iris_vision/share/colcon-core/packages/iris_vision)
+[12.714s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[12.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/sllidar_ros2'
+[12.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/ralph6': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ralph6 -- -j4 -l4
+[12.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[12.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/micro_ros_setup
+[13.041s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup' for CMake module files
+[13.045s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup' for CMake config files
+[13.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[13.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[13.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[13.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[13.115s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib'
+[13.116s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/bin'
+[13.116s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[13.117s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[13.118s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/bin'
+[13.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[13.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[13.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[13.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[13.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[13.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[13.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_demo_bringup)
+[13.349s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup' for CMake module files
+[13.352s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup' for CMake config files
+[13.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_demo_bringup', 'cmake_prefix_path')
+[13.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.ps1'
+[13.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.dsv'
+[13.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/hook/cmake_prefix_path.sh'
+[13.423s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/bin'
+[13.423s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/lib/pkgconfig/odrive_demo_bringup.pc'
+[13.424s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/lib/python3.10/site-packages'
+[13.425s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_demo_bringup/bin'
+[13.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.ps1'
+[13.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.dsv'
+[13.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.sh'
+[13.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.bash'
+[13.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.zsh'
+[13.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_demo_bringup/share/colcon-core/packages/odrive_demo_bringup)
+[13.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/ralph6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ralph6 -- -j4 -l4
+[13.507s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_ros2_control' with build type 'ament_cmake'
+[13.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_ros2_control'
+[13.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/sllidar_ros2 -- -j4 -l4
+[13.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[13.927s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup' for CMake module files
+[13.931s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup' for CMake config files
+[13.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[14.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[14.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[14.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[14.029s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib'
+[14.029s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/bin'
+[14.030s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[14.031s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[14.032s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/micro_ros_setup/bin'
+[14.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[14.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[14.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[14.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[14.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[14.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[14.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/ralph6': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ralph6
+[14.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/sllidar_ros2 -- -j4 -l4
+[14.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_ros2_control': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_ros2_control -- -j4 -l4
+[14.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ralph6)
+[14.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/ralph6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ralph6
+[14.322s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6' for CMake module files
+[14.325s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6' for CMake config files
+[14.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('ralph6', 'cmake_prefix_path')
+[14.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.ps1'
+[14.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.dsv'
+[14.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.sh'
+[14.409s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib'
+[14.410s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/bin'
+[14.410s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib/pkgconfig/ralph6.pc'
+[14.411s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib/python3.10/site-packages'
+[14.412s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/bin'
+[14.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.ps1'
+[14.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.dsv'
+[14.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.sh'
+[14.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.bash'
+[14.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.zsh'
+[14.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/ralph6/share/colcon-core/packages/ralph6)
+[14.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/sllidar_ros2
+[14.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_ros2_control -- -j4 -l4
+[14.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ralph6)
+[14.758s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6' for CMake module files
+[14.761s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6' for CMake config files
+[14.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('ralph6', 'cmake_prefix_path')
+[14.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.ps1'
+[14.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.dsv'
+[14.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/hook/cmake_prefix_path.sh'
+[14.832s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib'
+[14.832s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/bin'
+[14.832s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib/pkgconfig/ralph6.pc'
+[14.833s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/lib/python3.10/site-packages'
+[14.834s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/ralph6/bin'
+[14.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.ps1'
+[14.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.dsv'
+[14.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.sh'
+[14.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.bash'
+[14.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.zsh'
+[14.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/ralph6/share/colcon-core/packages/ralph6)
+[14.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[14.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/sllidar_ros2
+[14.973s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2' for CMake module files
+[14.976s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2' for CMake config files
+[14.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[15.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[15.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[15.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[15.049s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib'
+[15.050s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/bin'
+[15.050s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[15.051s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[15.052s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/bin'
+[15.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[15.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[15.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[15.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[15.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[15.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[15.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iris/iris/iris_ws/build/odrive_ros2_control': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_ros2_control
+[15.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_ros2_control)
+[15.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iris/iris/iris_ws/build/odrive_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_bringup:/home/iris/iris/iris_ws/install/odrive_hardware_interface:/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/iris/iris/iris_ws/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_ros2_control
+[15.251s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control' for CMake module files
+[15.254s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control' for CMake config files
+[15.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_ros2_control', 'cmake_prefix_path')
+[15.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.ps1'
+[15.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.dsv'
+[15.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.sh'
+[15.337s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/bin'
+[15.338s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/lib/pkgconfig/odrive_ros2_control.pc'
+[15.339s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/lib/python3.10/site-packages'
+[15.340s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/bin'
+[15.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.ps1'
+[15.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.dsv'
+[15.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.sh'
+[15.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.bash'
+[15.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.zsh'
+[15.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_ros2_control/share/colcon-core/packages/odrive_ros2_control)
+[15.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[15.583s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2' for CMake module files
+[15.586s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2' for CMake config files
+[15.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[15.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[15.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[15.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[15.656s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib'
+[15.657s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/bin'
+[15.657s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[15.659s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/sllidar_ros2/bin'
+[15.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[15.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[15.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[15.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[15.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[15.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[15.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_ros2_control)
+[15.856s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control' for CMake module files
+[15.859s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control' for CMake config files
+[15.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_ros2_control', 'cmake_prefix_path')
+[15.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.ps1'
+[15.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.dsv'
+[15.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.sh'
+[15.928s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/bin'
+[15.929s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/lib/pkgconfig/odrive_ros2_control.pc'
+[15.930s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/lib/python3.10/site-packages'
+[15.931s] Level 1:colcon.colcon_core.environment:checking '/home/iris/iris/iris_ws/install/odrive_ros2_control/bin'
+[15.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.ps1'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.dsv'
+[15.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.sh'
+[15.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.bash'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/iris/iris/iris_ws/install/odrive_ros2_control/share/odrive_ros2_control/package.zsh'
+[16.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iris/iris/iris_ws/install/odrive_ros2_control/share/colcon-core/packages/odrive_ros2_control)
+[16.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.006s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.089s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.141s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iris/iris/iris_ws/install/local_setup.ps1'
+[16.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iris/iris/iris_ws/install/_local_setup_util_ps1.py'
+[16.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iris/iris/iris_ws/install/setup.ps1'
+[16.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iris/iris/iris_ws/install/local_setup.sh'
+[16.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iris/iris/iris_ws/install/_local_setup_util_sh.py'
+[16.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iris/iris/iris_ws/install/setup.sh'
+[16.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iris/iris/iris_ws/install/local_setup.bash'
+[16.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iris/iris/iris_ws/install/setup.bash'
+[16.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iris/iris/iris_ws/install/local_setup.zsh'
+[16.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iris/iris/iris_ws/install/setup.zsh'

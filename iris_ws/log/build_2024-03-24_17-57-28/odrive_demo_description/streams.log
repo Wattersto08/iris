@@ -1,0 +1,25 @@
+[1.145s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_description -- -j4 -l4
+[2.617s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_description -- -j4 -l4
+[2.806s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_description
+[2.838s] -- Install configuration: ""
+[2.842s] -- Execute custom install script
+[2.848s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.ros2_control.xacro
+[2.850s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.urdf.xacro
+[2.853s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_diffbot.urdf.xacro
+[2.856s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_rrbot.urdf.xacro
+[2.860s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/package_run_dependencies/odrive_demo_description
+[2.870s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/parent_prefix_path/odrive_demo_description
+[2.875s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.sh
+[2.878s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.dsv
+[2.888s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.sh
+[2.889s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.dsv
+[2.892s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.bash
+[2.893s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.sh
+[2.898s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.zsh
+[2.898s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.dsv
+[2.899s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv
+[2.954s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/packages/odrive_demo_description
+[2.955s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig.cmake
+[2.960s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig-version.cmake
+[2.960s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.xml
+[3.350s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_description

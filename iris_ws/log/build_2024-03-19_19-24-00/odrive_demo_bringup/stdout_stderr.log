@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/diffbot_controllers.yaml
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/odrive_multi_interface_forward_controllers.yaml
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/rrbot_controllers.yaml
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_diffbot.launch.py
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_multi_interface.launch.py
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_rrbot.launch.py
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/package_run_dependencies/odrive_demo_bringup
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/parent_prefix_path/odrive_demo_bringup
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/path.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/path.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.bash
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.zsh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/packages/odrive_demo_bringup
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/cmake/odrive_demo_bringupConfig.cmake
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/cmake/odrive_demo_bringupConfig-version.cmake
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.xml

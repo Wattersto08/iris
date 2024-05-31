@@ -1,0 +1,41 @@
+[0.369s] Invoking command in '/home/iris/iris/iris_ws/build/ralph6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ralph6 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/ralph6
+[0.450s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.596s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.128s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.130s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/iris/iris/iris_ws/src/ralph6/include>
+[2.130s] -- Configured cppcheck exclude dirs and/or files: 
+[2.132s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.138s] -- Added test 'lint_cmake' to check CMake code style
+[2.142s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.159s] -- Added test 'uncrustify' to check C / C++ code style
+[2.160s] -- Configured uncrustify additional arguments: 
+[2.163s] -- Added test 'xmllint' to check XML markup files
+[2.170s] -- Configuring done
+[2.204s] -- Generating done
+[2.216s] -- Build files have been written to: /home/iris/iris/iris_ws/build/ralph6
+[2.228s] Invoked command in '/home/iris/iris/iris_ws/build/ralph6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ralph6 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/ralph6
+[2.239s] Invoking command in '/home/iris/iris/iris_ws/build/ralph6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ralph6 -- -j4 -l4
+[2.479s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[2.538s] [100%] Built target test_node
+[2.668s] Invoked command in '/home/iris/iris/iris_ws/build/ralph6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ralph6 -- -j4 -l4
+[2.924s] Invoking command in '/home/iris/iris/iris_ws/build/ralph6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ralph6
+[3.029s] -- Install configuration: ""
+[3.033s] -- Execute custom install script
+[3.039s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/lib/ralph6/test_node
+[3.042s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ament_index/resource_index/package_run_dependencies/ralph6
+[3.046s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ament_index/resource_index/parent_prefix_path/ralph6
+[3.049s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/environment/ament_prefix_path.sh
+[3.052s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/environment/ament_prefix_path.dsv
+[3.060s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/environment/path.sh
+[3.064s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/environment/path.dsv
+[3.067s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/local_setup.bash
+[3.071s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/local_setup.sh
+[3.075s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/local_setup.zsh
+[3.092s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/local_setup.dsv
+[3.097s] -- Symlinking: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.dsv
+[3.100s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ament_index/resource_index/packages/ralph6
+[3.100s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/cmake/ralph6Config.cmake
+[3.101s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/cmake/ralph6Config-version.cmake
+[3.102s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ralph6/share/ralph6/package.xml
+[3.930s] Invoked command in '/home/iris/iris/iris_ws/build/ralph6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ralph6

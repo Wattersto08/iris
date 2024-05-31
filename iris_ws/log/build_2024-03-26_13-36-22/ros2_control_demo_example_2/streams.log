@@ -1,0 +1,61 @@
+[1.146s] Invoking command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[1.739s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.060s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.124s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.307s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.322s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.354s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.115s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.121s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.243s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.278s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.376s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.407s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.217s] -- Found ament_cmake_pytest: 1.3.7 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[9.247s] -- Configuring done
+[9.402s] -- Generating done
+[9.412s] -- Build files have been written to: /home/iris/iris/iris_ws/build/ros2_control_demo_example_2
+[9.520s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_2[0m
+[9.614s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o[0m
+[24.075s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_2.so[0m
+[25.020s] [100%] Built target ros2_control_demo_example_2
+[25.059s] Invoked command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[25.182s] Invoking command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ros2_control_demo_example_2
+[25.209s] -- Install configuration: ""
+[25.212s] -- Execute custom install script
+[25.215s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2//ros2_control_demo_example_2.xml
+[25.216s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+[25.217s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h
+[25.219s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+[25.222s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+[25.223s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+[25.224s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+[25.225s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+[25.226s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+[25.227s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+[25.229s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+[25.230s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+[25.231s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+[25.232s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+[25.234s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+[25.234s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+[25.235s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+[25.236s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+[25.237s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+[25.238s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+[25.239s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+[25.269s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+[25.270s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+[25.271s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+[25.272s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.273s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+[25.274s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+[25.275s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml
+[25.276s] -- Installing: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+[25.285s] -- Set runtime path of "/home/iris/iris/iris_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""
+[25.286s] -- Up-to-date: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+[25.286s] -- Up-to-date: /home/iris/iris/iris_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+[25.293s] Invoked command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ros2_control_demo_example_2

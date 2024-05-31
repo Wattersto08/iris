@@ -1,0 +1,36 @@
+[0.971s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[2.617s] [ 50%] Built target odrive_usb
+[2.621s] [100%] Built target odrive_hardware_interface
+[2.667s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[2.859s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_hardware_interface
+[2.931s] -- Install configuration: ""
+[2.937s] -- Execute custom install script
+[2.940s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface//odrive_hardware_interface.xml
+[2.945s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_endpoints.hpp
+[2.948s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp
+[2.951s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_usb.hpp
+[2.953s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/visibility_control.hpp
+[2.959s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.sh
+[2.963s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.dsv
+[2.979s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/libodrive_usb.so
+[2.984s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so
+[2.999s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/ament_index/resource_index/package_run_dependencies/odrive_hardware_interface
+[3.001s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/ament_index/resource_index/parent_prefix_path/odrive_hardware_interface
+[3.004s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.sh
+[3.007s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.dsv
+[3.010s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.sh
+[3.013s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.dsv
+[3.016s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.bash
+[3.021s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.sh
+[3.025s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.zsh
+[3.029s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.dsv
+[3.043s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv
+[3.047s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/ament_index/resource_index/packages/odrive_hardware_interface
+[3.051s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/odrive_hardware_interface
+[3.052s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.052s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.053s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.053s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig.cmake
+[3.055s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig-version.cmake
+[3.055s] -- Up-to-date symlink: /home/iris/iris/iris_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.xml
+[3.425s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_hardware_interface

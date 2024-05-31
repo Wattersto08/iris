@@ -1,0 +1,30 @@
+[4.282s] Invoking command in '/home/iris/iris/iris_ws/src/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[5.509s] running egg_info
+[5.510s] writing ../../build/iris_vision/iris_vision.egg-info/PKG-INFO
+[5.512s] writing dependency_links to ../../build/iris_vision/iris_vision.egg-info/dependency_links.txt
+[5.513s] writing entry points to ../../build/iris_vision/iris_vision.egg-info/entry_points.txt
+[5.514s] writing requirements to ../../build/iris_vision/iris_vision.egg-info/requires.txt
+[5.515s] writing top-level names to ../../build/iris_vision/iris_vision.egg-info/top_level.txt
+[5.523s] reading manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[5.526s] writing manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[5.527s] running build
+[5.529s] running build_py
+[5.531s] running install
+[5.531s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.533s]   warnings.warn(
+[5.534s] running install_lib
+[5.544s] running install_data
+[5.546s] running install_egg_info
+[5.554s] removing '/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[5.556s] Copying ../../build/iris_vision/iris_vision.egg-info to /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info
+[5.565s] running install_scripts
+[5.649s] Installing Aruco_Tracking script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.650s] Installing DSLR_handler script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.651s] Installing FaceTracking script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.651s] Installing FaceTracking_headless script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.653s] Installing facetracking_motioncoltrol script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.655s] Installing iris_joy_control script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.657s] Installing listener script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.661s] Installing talker script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[5.664s] writing list of installed files to '/home/iris/iris/iris_ws/build/iris_vision/install.log'
+[5.997s] Invoked command in '/home/iris/iris/iris_ws/src/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed

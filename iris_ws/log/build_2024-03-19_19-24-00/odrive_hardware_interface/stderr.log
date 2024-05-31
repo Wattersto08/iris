@@ -1,0 +1,8 @@
+In file included from [01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/system_interface.hpp: No such file or directory
+   19 | #include [01;31m[K"hardware_interface/system_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:76: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

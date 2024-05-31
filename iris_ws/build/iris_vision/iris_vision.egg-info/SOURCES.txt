@@ -8,6 +8,7 @@ setup.py
 ../../build/iris_vision/iris_vision.egg-info/requires.txt
 ../../build/iris_vision/iris_vision.egg-info/top_level.txt
 ../../build/iris_vision/iris_vision.egg-info/zip-safe
+iris_vision/Aruco_Tracking.py
 iris_vision/DSLR_handler.py
 iris_vision/ExamplePub.py
 iris_vision/ExampleSub.py
@@ -15,6 +16,7 @@ iris_vision/FaceTracking.py
 iris_vision/FaceTracking_headless.py
 iris_vision/__init__.py
 iris_vision/facetracking_motioncontrol.py
+iris_vision/gps.py
 iris_vision/iris_joy_control.py
 iris_vision/webcam_CV_tests.py
 iris_vision.egg-info/PKG-INFO

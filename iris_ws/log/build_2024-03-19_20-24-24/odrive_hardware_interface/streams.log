@@ -1,0 +1,12 @@
+[1.042s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4
+[2.953s] [ 50%] Built target odrive_usb
+[2.956s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[2.958s] In file included from [01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[2.959s] [01m[K/home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/system_interface.hpp: No such file or directory
+[2.959s]    19 | #include [01;31m[K"hardware_interface/system_interface.hpp"[m[K
+[2.960s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.960s] compilation terminated.
+[2.960s] gmake[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:76: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+[2.968s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+[2.969s] gmake: *** [Makefile:146: all] Error 2
+[2.970s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_hardware_interface -- -j4 -l4

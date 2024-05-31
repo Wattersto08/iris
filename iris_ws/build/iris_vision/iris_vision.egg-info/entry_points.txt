@@ -1,8 +1,10 @@
 [console_scripts]
+Aruco_Tracking = iris_vision.Aruco_Tracking:main
 DSLR_handler = iris_vision.DSLR_handler:main
 FaceTracking = iris_vision.FaceTracking:main
 FaceTracking_headless = iris_vision.FaceTracking_headless:main
 facetracking_motioncoltrol = iris_vision.facetracking_motioncontrol:main
+gps_handler = iris_vision.gps:main
 iris_joy_control = iris_vision.iris_joy_control:main
 listener = iris_vision.ExampleSub:main
 talker = iris_vision.ExamplePub:main

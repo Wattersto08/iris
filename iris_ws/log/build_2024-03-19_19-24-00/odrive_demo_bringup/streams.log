@@ -1,0 +1,27 @@
+[1.324s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_bringup -- -j4 -l4
+[1.665s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/odrive_demo_bringup -- -j4 -l4
+[1.946s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_bringup
+[2.042s] -- Install configuration: ""
+[2.046s] -- Execute custom install script
+[2.056s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/diffbot_controllers.yaml
+[2.143s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/odrive_multi_interface_forward_controllers.yaml
+[2.243s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/config/rrbot_controllers.yaml
+[2.343s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_diffbot.launch.py
+[2.435s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_multi_interface.launch.py
+[2.483s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/launch/odrive_rrbot.launch.py
+[2.618s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/package_run_dependencies/odrive_demo_bringup
+[2.701s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/parent_prefix_path/odrive_demo_bringup
+[2.745s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/ament_prefix_path.sh
+[2.783s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/ament_prefix_path.dsv
+[2.848s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/path.sh
+[2.872s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/environment/path.dsv
+[2.912s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.bash
+[2.954s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.sh
+[2.995s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.zsh
+[3.048s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/local_setup.dsv
+[3.089s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.dsv
+[3.164s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/ament_index/resource_index/packages/odrive_demo_bringup
+[3.243s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/cmake/odrive_demo_bringupConfig.cmake
+[3.284s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/cmake/odrive_demo_bringupConfig-version.cmake
+[3.324s] -- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_bringup/share/odrive_demo_bringup/package.xml
+[4.404s] Invoked command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup' returned '0': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/odrive_demo_bringup

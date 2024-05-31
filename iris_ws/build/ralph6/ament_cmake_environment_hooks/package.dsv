@@ -1,0 +1,4 @@
+source;share/ralph6/local_setup.bash
+source;share/ralph6/local_setup.dsv
+source;share/ralph6/local_setup.sh
+source;share/ralph6/local_setup.zsh

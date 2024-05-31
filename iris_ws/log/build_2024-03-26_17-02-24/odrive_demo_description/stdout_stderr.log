@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.ros2_control.xacro
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive.urdf.xacro
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_diffbot.urdf.xacro
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/urdf/odrive_rrbot.urdf.xacro
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/package_run_dependencies/odrive_demo_description
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/parent_prefix_path/odrive_demo_description
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/environment/path.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.bash
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.sh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.zsh
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/local_setup.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.dsv
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/ament_index/resource_index/packages/odrive_demo_description
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig.cmake
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/cmake/odrive_demo_descriptionConfig-version.cmake
+-- Symlinking: /home/iris/iris/iris_ws/install/odrive_demo_description/share/odrive_demo_description/package.xml

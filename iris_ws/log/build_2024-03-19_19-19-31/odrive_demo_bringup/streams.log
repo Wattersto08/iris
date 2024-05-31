@@ -1,0 +1,19 @@
+[1.147s] Invoking command in '/home/iris/iris/iris_ws/build/odrive_demo_bringup': AMENT_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iris/iris/iris_ws/install/odrive_demo_description:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/odrive_ros2_control/odrive_demo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/odrive_demo_bringup
+[1.525s] -- The C compiler identification is GNU 11.4.0
+[1.830s] -- The CXX compiler identification is GNU 11.4.0
+[1.866s] -- Detecting C compiler ABI info
+[2.271s] -- Detecting C compiler ABI info - done
+[2.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.334s] -- Detecting C compile features
+[2.356s] -- Detecting C compile features - done
+[2.370s] -- Detecting CXX compiler ABI info
+[2.850s] -- Detecting CXX compiler ABI info - done
+[2.880s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.884s] -- Detecting CXX compile features
+[2.885s] -- Detecting CXX compile features - done
+[2.903s] -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.614s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.885s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.390s] -- Configuring done
+[4.410s] -- Generating done
+[4.414s] -- Build files have been written to: /home/iris/iris/iris_ws/build/odrive_demo_bringup

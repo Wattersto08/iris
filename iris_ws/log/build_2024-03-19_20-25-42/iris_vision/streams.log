@@ -1,0 +1,74 @@
+[6.249s] Invoking command in '/home/iris/iris/iris_ws/build/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/iris/iris/iris_ws/build/iris_vision/build
+[8.505s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.506s]   warnings.warn(
+[8.507s] running develop
+[8.511s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.512s]   warnings.warn(
+[9.616s] Removing /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris-vision.egg-link (link to .)
+[11.132s] Invoked command in '/home/iris/iris/iris_ws/build/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/iris/iris/iris_ws/build/iris_vision/build
+[11.141s] Invoking command in '/home/iris/iris/iris_ws/src/iris_vision': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed
+[13.149s] running egg_info
+[13.154s] writing ../../build/iris_vision/iris_vision.egg-info/PKG-INFO
+[13.160s] writing dependency_links to ../../build/iris_vision/iris_vision.egg-info/dependency_links.txt
+[13.162s] writing entry points to ../../build/iris_vision/iris_vision.egg-info/entry_points.txt
+[13.165s] writing requirements to ../../build/iris_vision/iris_vision.egg-info/requires.txt
+[13.166s] writing top-level names to ../../build/iris_vision/iris_vision.egg-info/top_level.txt
+[13.178s] reading manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[13.184s] writing manifest file '../../build/iris_vision/iris_vision.egg-info/SOURCES.txt'
+[13.186s] running build
+[13.187s] running build_py
+[13.189s] copying iris_vision/Aruco_Tracking.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.193s] copying iris_vision/DSLR_handler.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.196s] copying iris_vision/FaceTracking.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.199s] copying iris_vision/iris_joy_control.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.203s] copying iris_vision/facetracking_motioncontrol.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.206s] copying iris_vision/ExampleSub.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.209s] copying iris_vision/webcam_CV_tests.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.211s] copying iris_vision/FaceTracking_headless.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.215s] copying iris_vision/ExamplePub.py -> /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision
+[13.224s] running install
+[13.226s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.226s]   warnings.warn(
+[13.229s] running install_lib
+[13.236s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/Aruco_Tracking.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.238s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/DSLR_handler.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.240s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/webcam_CV.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.245s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/FaceTracking.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.247s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/iris_joy_control.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.249s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/publisher_member_function.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.255s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/__init__.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.260s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/subscriber_member_function_old.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.272s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/facetracking_motioncontrol.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.277s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/subscriber_member_function.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.289s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/ExampleSub.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.296s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/webcam_CV_tests.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.302s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/FaceTracking_headless.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.314s] copying /home/iris/iris/iris_ws/build/iris_vision/build/lib/iris_vision/ExamplePub.py -> /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision
+[13.323s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/Aruco_Tracking.py to Aruco_Tracking.cpython-310.pyc
+[13.332s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/DSLR_handler.py to DSLR_handler.cpython-310.pyc
+[13.341s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/webcam_CV.py to webcam_CV.cpython-310.pyc
+[13.358s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/FaceTracking.py to FaceTracking.cpython-310.pyc
+[13.374s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/iris_joy_control.py to iris_joy_control.cpython-310.pyc
+[13.383s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[13.392s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/__init__.py to __init__.cpython-310.pyc
+[13.399s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/subscriber_member_function_old.py to subscriber_member_function_old.cpython-310.pyc
+[13.407s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/facetracking_motioncontrol.py to facetracking_motioncontrol.cpython-310.pyc
+[13.408s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[13.409s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/ExampleSub.py to ExampleSub.cpython-310.pyc
+[13.420s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/webcam_CV_tests.py to webcam_CV_tests.cpython-310.pyc
+[13.421s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/FaceTracking_headless.py to FaceTracking_headless.cpython-310.pyc
+[13.436s] byte-compiling /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision/ExamplePub.py to ExamplePub.cpython-310.pyc
+[13.440s] running install_data
+[13.440s] running install_egg_info
+[13.466s] Copying ../../build/iris_vision/iris_vision.egg-info to /home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages/iris_vision-0.0.0-py3.10.egg-info
+[13.476s] running install_scripts
+[13.632s] Installing Aruco_Tracking script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.639s] Installing DSLR_handler script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.640s] Installing FaceTracking script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.641s] Installing FaceTracking_headless script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.641s] Installing facetracking_motioncoltrol script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.648s] Installing iris_joy_control script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.654s] Installing listener script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.666s] Installing talker script to /home/iris/iris/iris_ws/install/iris_vision/lib/iris_vision
+[13.671s] writing list of installed files to '/home/iris/iris/iris_ws/build/iris_vision/install.log'
+[13.851s] Invoked command in '/home/iris/iris/iris_ws/src/iris_vision' returned '0': PYTHONPATH=/home/iris/iris/iris_ws/build/iris_vision/prefix_override:/home/iris/iris/iris_ws/install/iris_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iris_vision build --build-base /home/iris/iris/iris_ws/build/iris_vision/build install --record /home/iris/iris/iris_ws/build/iris_vision/install.log --single-version-externally-managed

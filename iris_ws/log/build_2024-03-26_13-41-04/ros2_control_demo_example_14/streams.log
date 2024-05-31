@@ -1,0 +1,79 @@
+[0.963s] Invoking command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros2_control_demos/example_14 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/ros2_control_demo_example_14
+[2.996s] -- The CXX compiler identification is GNU 11.4.0
+[3.005s] -- Detecting CXX compiler ABI info
+[3.011s] -- Detecting CXX compiler ABI info - done
+[3.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.018s] -- Detecting CXX compile features
+[3.022s] -- Detecting CXX compile features - done
+[3.036s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.073s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.095s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.647s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.724s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.821s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.278s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.317s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.596s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.855s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.868s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[9.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.982s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.018s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.176s] -- Looking for C++ include pthread.h
+[10.628s] -- Looking for C++ include pthread.h - found
+[10.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.186s] -- Found Threads: TRUE  
+[12.262s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[12.955s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[13.582s] -- Configuring done
+[13.780s] -- Generating done
+[13.790s] -- Build files have been written to: /home/iris/iris/iris_ws/build/ros2_control_demo_example_14
+[13.846s] Invoked command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake /home/iris/iris/iris_ws/src/ros2_control_demos/example_14 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iris/iris/iris_ws/install/ros2_control_demo_example_14
+[13.855s] Invoking command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ros2_control_demo_example_14 -- -j4 -l4
+[14.161s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_14.dir/hardware/rrbot_sensor_for_position_feedback.cpp.o[0m
+[14.206s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_14.dir/hardware/rrbot_actuator_without_feedback.cpp.o[0m
+[45.368s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_14.so[0m
+[47.747s] [100%] Built target ros2_control_demo_example_14
+[47.838s] Invoked command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --build /home/iris/iris/iris_ws/build/ros2_control_demo_example_14 -- -j4 -l4
+[48.449s] Invoking command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ros2_control_demo_example_14
+[48.553s] -- Install configuration: ""
+[48.563s] -- Execute custom install script
+[48.585s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14//ros2_control_demo_example_14.xml
+[48.689s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/rrbot_actuator_without_feedback.hpp
+[48.836s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/rrbot_sensor_for_position_feedback.hpp
+[48.953s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/include/ros2_control_demo_example_14/ros2_control_demo_example_14/visibility_control.h
+[49.075s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch/view_robot.launch.py
+[49.135s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/ros2_control/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.ros2_control.xacro
+[49.189s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/urdf/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.urdf.xacro
+[49.242s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/launch/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.launch.py
+[49.300s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/config/rrbot_modular_actuators_without_feedback_sensors_for_position_feedback.yaml
+[49.356s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/library_path.sh
+[49.414s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/library_path.dsv
+[49.472s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_14
+[49.530s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_14
+[49.584s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/ament_prefix_path.sh
+[49.642s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/ament_prefix_path.dsv
+[49.695s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/path.sh
+[49.752s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/environment/path.dsv
+[49.808s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.bash
+[49.873s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.sh
+[49.935s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.zsh
+[49.994s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/local_setup.dsv
+[50.058s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/package.dsv
+[50.120s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/packages/ros2_control_demo_example_14
+[50.181s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_14
+[50.246s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ament_cmake_export_targets-extras.cmake
+[50.309s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.368s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ros2_control_demo_example_14Config.cmake
+[50.431s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/ros2_control_demo_example_14Config-version.cmake
+[50.491s] -- Symlinking: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/package.xml
+[50.555s] -- Installing: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/lib/libros2_control_demo_example_14.so
+[50.615s] -- Set runtime path of "/home/iris/iris/iris_ws/install/ros2_control_demo_example_14/lib/libros2_control_demo_example_14.so" to ""
+[50.620s] -- Installing: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/export_ros2_control_demo_example_14Export.cmake
+[50.621s] -- Installing: /home/iris/iris/iris_ws/install/ros2_control_demo_example_14/share/ros2_control_demo_example_14/cmake/export_ros2_control_demo_example_14Export-noconfig.cmake
+[50.634s] Invoked command in '/home/iris/iris/iris_ws/build/ros2_control_demo_example_14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iris/iris/iris_ws/install/iris_vision:/opt/ros/humble /usr/bin/cmake --install /home/iris/iris/iris_ws/build/ros2_control_demo_example_14
